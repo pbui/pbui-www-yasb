@@ -61,7 +61,7 @@ body:       |
             {% if course.get('link', None) %}
             <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
             {% else %}
-            <li>{{ course['title'] }}</li>
+            <li>{{ course['title'] }} ({{ course['semester'] }})</li>
             {% end %}
         {% end %}
         </ul>
@@ -73,7 +73,7 @@ body:       |
             {% if course.get('link', None) %}
             <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
             {% else %}
-            <li>{{ course['title'] }}</li>
+            <li>{{ course['title'] }} ({{ course['semester'] }})</li>
             {% end %}
         {% end %}
         </ul>

@@ -40,7 +40,7 @@ body:       |
             {% if course.get('link', None) %}
             <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
             {% else %}
-            <li>{{ course['title'] }}</li>
+            <li>{{ course['title'] }} ({{ course['semester'] }})</li>
             {% end %}
         {% end %}
         </ul>
@@ -49,20 +49,13 @@ body:       |
     <div class="row">
         <h3>Previous Courses</h3>
         <ul>
-        {% set courses   = filter(lambda c: not c.get('active', False), page.external.get('courses', [])) %}
-        {% set semesters = sorted(set([c.get('semester', None) for c in courses]), reverse=True, key=lambda o: (int(o.split()[1]), -len(o.split()[0]))) %}
-        {% for semester in semesters %}
-          <li><h4>{{ semester }}</h4>
-          <ul>
-          {% for course in filter(lambda c: c.get('semester', None) == semester, courses) %}
-              {% if course.get('link', None) %}
-              <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a> {% if 'role' in course %}({{ course['role'] }}){% end %}</li>
-              {% else %}
-              <li>{{ course['title'] }} {% if 'role' in course %}(<i>{{ course['role'] }}</i>){% end %}</li>
-              {% end %}
-          {% end %}
-          </ul>
-          </li>
+        {% set courses = filter(lambda c: not c.get('active', False), page.external.get('courses', [])) %}
+        {% for course in courses %}
+            {% if course.get('link', None) %}
+            <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a> {% if 'role' in course %}[<i>{{ course['role'] }}</i>]{% end %}</li>
+            {% else %}
+            <li>{{ course['title'] }} ({{ course['semester'] }}) {% if 'role' in course %}[<i>{{ course['role'] }}</i>]{% end %}</li>
+            {% end %}
         {% end %}
         </ul>
     </div>
