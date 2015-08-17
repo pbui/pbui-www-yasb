@@ -71,7 +71,7 @@
         - cluster
         - dp3
         - WorkQueue
-  note: Awarded Best Paper in Education, Outreach, and Training track.
+  note: Awarded Best Paper in Education, Outreach, and Training track
 
 - title:    "To the Cloud and Back: A Distributed Photo Pipeline"
   link:     http://dpl.www3.nd.edu/static/pdf/dp3-mics2013.pdf
