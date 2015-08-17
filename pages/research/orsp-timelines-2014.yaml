@@ -1,0 +1,183 @@
+title:      ORSP Timelines 2014
+prefix:     ../
+icon:       fa-calendar
+navigation: []
+internal:
+external:
+body:       |
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Project Title</th>
+                <th>Work Completed To Date</th>
+                <th>Suggested Timeline For Student Tasks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-strong">DSABR</td>
+                <td>
+
+                    We have a working prototype of the <strong>web portal</strong>.
+                    Unfortunately it does not manage the startup and shutdown
+                    of the worker processes that perform the task of generating
+                    the video frames.  Additionally, some of the software we
+                    rely on is out-of-date and needs to be updated.
+
+                </td>
+                <td>
+                    Students will work on the following components:
+
+                    <ol>
+                        <li><strong>Python-WorkQueue bindings</strong>:
+                        Update the Python-WorkQueue bindings and the DSABR command line tool.
+
+                        (<strong>ETA: October 2014</strong>)
+                        </li>
+
+                        <li><strong>HTCondor Middle-Ware</strong>:
+                        Implement a software intermediary to translate between the web portal and HTCondor.
+
+                        (<strong>ETA: December 2014</strong>)
+                        </li>
+
+                        <li><strong>Worker Management</strong>:
+                        Explore different algorithms and metrics for scaling the number of workers utilized on different rendering jobs.
+
+                        (<strong>ETA: March 2015</strong>)
+                        </li>
+
+                    </ol>
+
+                    Students will integrate their work into the existing web
+                    portal.  A potential re-write of the prototype may also be
+                    required, depending on the challenges in integrating the
+                    worker management with the existing prototype.
+
+                </td>
+            </tr>
+            <tr>
+                <td class="text-strong">Monitoring</td>
+                <td>
+
+                   We have working prototypes of the <strong>collector</strong>
+                   and <strong>aggregator</strong>.  We are missing the
+                   <strong>visualization</strong> and
+                   <strong>analytics</strong> components.
+
+                </td>
+                <td>
+                    Students will work on the following components:
+
+                    <ol>
+                        <li><strong>Visualization</strong>:
+                        Develop a website that will pull data from the
+                        aggregator database and visualize the results in a web
+                        browser.
+
+                        (<strong>ETA: November 2014</strong>)
+                        </li>
+
+                        <li><strong>Analytics</strong>:
+
+                        Implement a query language in the database that will
+                        allow system administrators to analyze the large set of
+                        data for trends and patterns.
+                        (<strong>ETA: March 2015</strong>)
+                        </li>
+                    </ol>
+
+                    Students will also work on improving and extending the
+                    existing <strong>collector</strong> and
+                    <strong>aggregator</strong> components as necessary.
+                    Additionally, the student will work on displaying the
+                    <strong>visualizations</strong> using Raspberry Pi's
+                    connected to large LCD displays in the Computer Science
+                    Teaching Lab (Phillips 115).
+                </td>
+            </tr>
+            <tr>
+                <td class="text-strong">SnakeWrangler</td>
+                <td>
+                    We have a few ad-hoc scripts for managing a fixed set of
+                    notebooks, but lack a robust infrastructure and ability for
+                    users to manage their own IPython notebooks.
+                </td>
+                <td>
+                    Students will work on the following components:
+
+                    <ol>
+                        <li><strong>Supervisord</strong>:
+                        Configure Supervisord daemon to manage IPython notebooks.
+
+                        (<strong>ETA: September 2014</strong>)
+                        </li>
+
+                        <li><strong>Web Portal</strong>:
+                        A website that communicates with Supervisord to manage
+                        and track running IPython notebooks.
+
+                        (<strong>ETA: November 2014</strong>)
+                        </li>
+
+                        <li><strong>Proxy</strong>:
+                        A server that provides human friendly URLs.
+
+                        (<strong>ETA: December 2014</strong>)
+                        </li>
+
+                        <li><strong>Documentation</strong>:
+                        Tutorials and documentation for students to use in CS 170.
+
+                        (<strong>ETA: February 2015</strong>)
+                        </li>
+
+                    </ol>
+
+                    Students will provide support and maintenance during the
+                    offering of CS 170 in the Spring semester to verify that
+                    their project works properly.
+                </td>
+            </tr>
+            <tr>
+                <td class="text-strong">WIDLE</td>
+                <td>
+                    We have a rough proof-of-concept of the ability to browse,
+                    edit, and view remote files in a web browser but miss all
+                    the other functionality listed in the proposal.
+                </td>
+                <td>
+                    Students will work on the following components:
+
+                    <ol>
+                        <li><strong>Web Application</strong>:
+                        Develop a base web application that receives remote
+                        commands from a user.
+
+                        (<strong>ETA: October 2014</strong>)
+                        </li>
+
+                        <li><strong>File Management and Operations</strong>:
+                        Implement basic file management and operations such as
+                        copying, renaming, moving files, transferring files,
+                        editing files, and view files.
+
+                        (<strong>ETA: Janurary 2015</strong>)
+                        </li>
+
+                        <li><strong>Command Shell</strong>:
+                        Implement the ability to send, execute, and view the
+                        results of a program executions.
+
+                        (<strong>ETA: March 2015</strong>)
+                        </li>
+                    </ol>
+
+                    Students will also work on packaging the software to ensure
+                    that users can easily deploy and execute the learning
+                    environment.
+                </td>
+            </tr>
+        </tbody>
+    </table>

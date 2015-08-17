@@ -1,0 +1,154 @@
+CERCA2015:
+    title:      "Celebration of Excellence in Research and Creative Activity"
+    link:       http://www.uwec.edu/ORSP/students/upload/Abstracts-Book-2015-final-for-web.pdf
+    location:   University of Wisconsin - Eau Claire.  Eau Claire, WI
+
+MICS2015:
+    title:      "Midwest Instruction and Computing Symposium"
+    link:       http://www.micsymposium.org/mics2015/
+    location:   Grand Forks, ND
+
+SIGCSE2015:
+    title:      "SIG Computer Science Education"
+    link:       http://sigcse2015.sigcse.org/
+    location:   Kansas City, Missouri
+
+CERCA2014:
+    title:      "Celebration of Excellence in Research and Creative Activity"
+    link:       http://www.uwec.edu/ORSP/students/upload/Abstracts-Book-finished7.pdf
+    location:   University of Wisconsin - Eau Claire.  Eau Claire, WI
+
+MICS2014:
+    title:      "Midwest Instruction and Computing Symposium"
+    link:       http://www.micsymposium.org/mics2014/
+    location:   Verona, WI
+
+SACM2013:
+    title:      "Student Association of Computing Machinery"
+    link:       http://sacm.uwec.edu/
+    location:   Eau Claire, WI
+
+HPCED2013:
+    title:      "Broader Engagement and HPC Educators Program at Supercomputing"
+    link:       http://sc13.supercomputing.org/
+    location:   Denver, CO
+
+CCL2013:
+    title:      "Cooperative Computing Lab Workshop"
+    link:       http://www3.nd.edu/~ccl/workshop/2013/
+    location:   University of Notre Dame.  Notre Dame, IN
+
+CLUSTER2013:
+    title:      "IEEE Cluster"
+    link:       http://pti.iu.edu/ieeecluster-2013/
+    location:   Indianapolis, IN
+
+CONDOR2013:
+    title:      "HTCondor Week"
+    link:       http://research.cs.wisc.edu/htcondor/HTCondorWeek2013
+    location:   University of Wisconsin - Madison. Madison, WI
+
+CERCA2013:
+    title:      "Celebration of Excellence in Research and Creative Activity"
+    link:       http://www.uwec.edu/ORSP/students/upload/Abstracts-Book-with-Covers-Foward-and-map.pdf
+    location:   University of Wisconsin - Eau Claire.  Eau Claire, WI
+
+MICS2013:
+    title:      "Midwest Instruction and Computing Symposium"
+    link:       http://www.micsymposium.org/mics2013/
+    location:   La Crosse, WI
+
+SPE:
+    title:      "Software: Practice and Experience"
+    link:       http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-024X
+    location:
+
+CCPE:
+    title:      "Concurrency and Computation: Practice and Experience"
+    link:       http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0634
+    location:
+
+DPD:
+    title:      "Distributed and Parallel Databases, Springer"
+    link:       http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10619
+    location:
+
+UND:
+    title:      "University of Notre Dame"
+    link:       http://www.nd.edu
+    location:   University of Notre Dame.  Notre Dame, IN
+
+SWEET2012:
+    title:      "Workshop on Scalable Workflow Enactment Engines and Technologies at ACM SIGMOD"
+    link:       https://sites.google.com/site/sweetworkshop2012/
+    location:   Scottsdale, Arizona
+
+CCL2012:
+    title:      "Cooperative Computing Lab Workshop"
+    link:       http://www3.nd.edu/~ccl/workshop/2012/
+    location:   University of Notre Dame.  Notre Dame, IN
+
+CONDOR2012:
+    title:      "HTCondor Week"
+    link:       http://research.cs.wisc.edu/htcondor/HTCondorWeek2012
+    location:   University of Wisconsin - Madison. Madison, WI
+
+IGIGLOBAL:
+    title:      "Data Intensive Distributed Computing: Challenges and Solutions for Large-scale Information Management, IGI Global, Chapter 6"
+    link:       http://www.igi-global.com/book/data-intensive-distributed-computing/41764
+    location:
+
+PYHPC2011:
+    title:      "Workshop on Python for High Performance and Scientific Computing at Supercomputing"
+    link:       http://www.dlr.de/sc/desktopdefault.aspx/tabid-1183/1638_read-31733/
+    location:   Seattle, WA
+
+ECMLS2011:
+    title:      "Workshop on Emerging Computational Methods for the Life Sciences"
+    link:       http://salsahpc.indiana.edu/ECMLS2011/
+    location:   San Jose, CA
+
+CLOUDCOM2010:
+    title:      "IEEE International Conference on Cloud Computing Technology and Science"
+    link:       http://2010.cloudcom.org/
+    location:   Indianapolis, IN
+
+WORKS2010:
+    title:      "Workshop on Workflows in Support of Large-Scale Science"
+    link:       http://www.isi.edu/works10/
+    location:   New Orleans, LA
+
+DIDC2010:
+    title:      "Workshop on Data Intensive Distributed Computing at ACM HPDC"
+    link:       http://www.cse.buffalo.edu/faculty/tkosar/didc10/
+    location:   Chicago, IL
+
+CLADE2010:
+    title:      "Challenges of Large Applications in Distributed Environments at ACM HPDC"
+    link:       https://sites.google.com/site/clade2010/
+    location:   Chicago, IL
+
+CSE2010:
+    title:      "Computer Science and Engineering Student Research Symposium"
+    link:       
+    location:   University of Notre Dame.  Notre Dame, IN
+
+CCL2010:
+    title:      "Cooperative Computing Lab Tutorial"
+    link:       http://www.cse.nd.edu/~ccl/software/tutorials/work_queue_tutorial_20100629.ppt
+    location:   University of Notre Dame.  Notre Dame, IN
+
+CONDOR2010:
+    title:      "HTCondor Week"
+    link:       http://research.cs.wisc.edu/htcondor/CondorWeek2010
+    location:   University of Wisconsin - Madison. Madison, WI
+
+CIDAYS2010:
+    title:      "Cyberinfrastructure Days"
+    link:       
+    location:   University of Notre Dame.  Notre Dame, IN
+
+GPGPU2:
+    title:      "Workshop on General Purpose Processing on Graphics Processing Units"
+    link:       http://www.ece.neu.edu/groups/nucar/GPGPU/GPGPU-2/
+    location:   Washington, DC

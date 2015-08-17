@@ -1,0 +1,265 @@
+title:      Peter James Bui
+icon:       ""
+navigation: []
+internal:
+    author:         "Peter Bui"
+external:
+    presentations:  "static/yaml/presentations.yaml"
+    publications:   "static/yaml/publications.yaml"
+    courses:        "static/yaml/courses.yaml"
+    venues:         "static/yaml/venues.yaml"
+    education:      "static/yaml/education.yaml"
+    experience:     "static/yaml/experience.yaml"
+    grants:         "static/yaml/grants.yaml"
+    awards:         "static/yaml/awards.yaml"
+    service:        "static/yaml/service.yaml"
+body:       |
+
+    <style>
+        body {
+            margin-top: -15px;
+        }
+        td.cv-cell {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        td.cv-front {
+            padding: 0px;
+            vertical-align: top;
+            width: 120px;
+        }
+        td.cv-back {
+            padding: 10px;
+            width: 250px;
+        }
+    </style>
+
+    <div style="text-align: center;">
+        <small>
+            3634 Goldridge Road, Eau Claire, WI 54701<br/>
+            <i class="fa fa-phone"></i> 715 255 0396&nbsp;&nbsp;
+            <i class="fa fa-envelope"></i> <a href="mailto:peter.j.bui@gmail.com">peter.j.bui@gmail.com</a>&nbsp;&nbsp;
+            <i class="fa fa-globe"></i> <a href="http://cs.uwec.edu/~buipj">cs.uwec.edu/~buipj</a>
+        </small>
+    </div>
+
+    ### Education
+
+    <table style="width: 100%;">
+        {% for entry in page.external.get('education', []) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5 class="muted">{{ entry['year'] }}</h5></td>
+            <td class="cv-cell"><strong>{{ entry['degree'] }}</strong></td>
+            <td class="cv-cell">{{ entry['major'] }}</td>
+            <td class="cv-cell cv-back">{{ entry['school'] }}</td>
+        </tr>
+        {% end %}
+    </table>
+    
+    ### Experience
+    
+    <table style="width: 100%;">
+        {% for entry in page.external.get('experience', []) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5 class="muted">{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['position'] }}</td>
+            <td class="cv-cell cv-back">{{ entry['school'] }}</td>
+        </tr>
+        {% end %}
+    </table>
+    
+    ### Teaching
+        
+    {% for school, courses in itertools.groupby(page.external.get('courses', []), key=lambda c: c['school']) %}
+    <h4>{{ school }}</h4>
+
+    <table style="width: 100%;">
+        {% set courses = sorted(courses, key=lambda c: c['semester'].split()[-1], reverse=True) %}
+        {% for semester, group in itertools.groupby(courses, key=lambda c: c['semester']) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5 class="muted">{{ semester }}</h5></td>
+            <td class="cv-cell">
+                <ul class="list-unstyled">
+                    {% for course in group %}
+                    <li>
+                        {% if course.get('link') %}
+                        <a href="{{ course['link'] }}">{{ course['title'] }}</a>
+                        {% else %}
+                        {{ course['title'] }} {% if course.get('role') %}<i>({{ course['role'] }})</i>{% end %}
+                        {% end %}
+                    </li>
+                    {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>
+    {% end %}
+
+    ### Research
+    
+    #### Publications
+
+    <table style="width: 100%;">
+        {% set date_year    = lambda p: dateutil.parser.parse(p['date']).year %}
+        {% set publications = sorted(page.external['publications'], key=date_year, reverse=True) %}
+        {% for year, group in itertools.groupby(publications, key=date_year) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ year }}</h5></td>
+            <td class="cv-cell">
+                <ul class="list-unstyled list-spaced">
+                {% for publication in group %}
+                    {% set publication_link    = publication.get('link', '') or '' %}
+                    {% set publication_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in publication['authors']] %}
+                    {% if len(publication_authors) > 1 %}
+                        {% set publication_authors = publication_authors[:-1] + ['and ' + publication_authors[-1]] %}
+                    {% end %}
+                    {% set publication_venue   = page.external['venues'][publication['venue']] %}
+                    <li>
+                        {% raw ', '.join(publication_authors) if len(publication_authors) >= 3 else ' '.join(publication_authors) %}.
+                        <a href="{{ publication_link }}">{{ publication['title'] }}</a>.
+                        {% if publication.get('type', None) %}
+                        <em>{{ publication['type'] }}</em>.
+                        {% end %}
+                        {{ publication_venue['title'] }} (<a href="{{ publication_venue['link'] }}">{{ publication['venue'] }}</a>).
+                        {% if publication_venue['location'] %}
+                        {{ publication_venue['location'] }}.
+                        {% end %}
+                        {{ dateutil.parser.parse(publication['date']).strftime('%B, %Y') }}.
+                        {% if publication.get('note', None) %}
+                        <strong>{{ publication['note'] }}</strong>.
+                        {% end %}
+                    </li>
+                {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>
+    
+    #### Presentations
+
+    <table style="width: 100%;">
+        {% set date_year    = lambda p: dateutil.parser.parse(p['date']).year %}
+        {% set presentations = sorted(page.external['presentations'], key=date_year, reverse=True) %}
+        {% for year, group in itertools.groupby(presentations, key=date_year) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ year }}</h5></td>
+            <td class="cv-cell">
+                <ul class="list-unstyled list-spaced">
+                {% for presentation in group %}
+                    {% set presentation_link    = presentation.get('link', '') or '' %}
+                    {% set presentation_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in presentation['authors']] %}
+                    {% if len(presentation_authors) > 1 %}
+                        {% set presentation_authors = presentation_authors[:-1] + ['and ' + presentation_authors[-1]] %}
+                    {% end %}
+                    {% set presentation_venue   = page.external['venues'][presentation['venue']] %}
+                    <li>
+                        {% raw ', '.join(presentation_authors) if len(presentation_authors) >= 3 else ' '.join(presentation_authors) %}.
+                        <a href="{{ presentation_link }}">{{ presentation['title'] }}</a>.
+                        {% if presentation.get('type', None) %}
+                        <em>{{ presentation['type'] }}</em>.
+                        {% end %}
+                        {{ presentation_venue['title'] }} (<a href="{{ presentation_venue['link'] }}">{{ presentation['venue'] }}</a>).
+                        {% if presentation_venue['location'] %}
+                        {{ presentation_venue['location'] }}.
+                        {% end %}
+                        {{ dateutil.parser.parse(presentation['date']).strftime('%B, %Y') }}.
+                        {% if presentation.get('note', None) %}
+                        <strong>{{ presentation['note'] }}</strong>.
+                        {% end %}
+                    </li>
+                {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>
+
+    #### Grants
+    
+    <table style="width: 100%;">
+        {% set grants = sorted(page.external['grants'], key=lambda g: g['year'], reverse=True) %}
+        {% for year, group in itertools.groupby(grants, key=lambda g: g['year']) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ year }}</h5></td>
+            <td class="cv-cell">
+                <ul class="list-unstyled list-spaced">
+                    {% for grant in group %}
+                    <li>
+                        <strong>{{ grant['title'] }}</strong>.
+                        <a href="{{ grant.get('link', '') }}">{{ grant['organization'] }}</a>.
+                    </li>
+                    {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>
+    
+    ### Service 
+
+    #### Undergraduate Research/Independent Study
+
+    <table style="width: 100%;">
+        {% set undergraduates = sorted(page.external['service']['undergraduates'], key=lambda g: g['year'], reverse=True) %}
+        {% for year, group in itertools.groupby(undergraduates, key=lambda g: g['year']) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ year }}</h5></td>
+            <td class="cv-cell">{{ ', '.join(sorted(map(lambda u: u['name'], group))) }}.</td>
+        </tr>
+        {% end %}
+    </table>
+    
+    #### Advising
+
+    <table style="width: 100%;">
+        {% for entry in page.external['service']['advising'] %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['name'] }}.</td>
+        </tr>
+        {% end %}
+    </table>
+    
+    #### Organizations
+
+    <table style="width: 100%;">
+        {% for entry in page.external['service']['organizations'] %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['name'] }}.</td>
+            <td class="cv-cell cv-back">{{ entry['role'] }}</td>
+        </tr>
+        {% end %}
+    </table>
+    
+    #### Program Committee
+    
+    <table style="width: 100%;">
+        {% set pcs = sorted(page.external['service']['program_committee'], key=lambda g: g['year'], reverse=True) %}
+        {% for year, group in itertools.groupby(pcs, key=lambda g: g['year']) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ year }}</h5></td>
+            <td class="cv-cell">
+                <ul class="list-unstyled list-spaced">
+                    {% for pc in group %}
+                    <li>{{ pc['title'] }} ({{ pc['name'] }}).</li>
+                    {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>
+    
+    ### Honors and Awards
+
+    <table style="width: 100%;">
+        {% for entry in page.external.get('awards', []) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5 class="muted">{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['title'] }}</td>
+            <td class="cv-cell cv-back">{{ entry['organization'] }}</td>
+        </tr>
+        {% end %}
+    </table>

@@ -1,0 +1,327 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+4 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nd.edu/~pbui/teaching/cse40166.f10/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 172.1706
+ 477.0571
+ 385.9106
+ 489.0571 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+5 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nd.edu/~pbui/teaching/cse40872.f09/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 66.02291
+ 465.0571
+ 279.7629
+ 477.0571 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R ]
+ /Contents 11 0 R
+ /MediaBox [ 0
+ 0
+ 612
+ 792 ]
+ /Parent 10 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+7 0 obj
+% Page dictionary
+<< /Contents 12 0 R
+ /MediaBox [ 0
+ 0
+ 612
+ 792 ]
+ /Parent 10 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R8': class PDFCatalog 
+8 0 obj
+% Document Root
+<< /Outlines 13 0 R
+ /PageLabels 14 0 R
+ /PageMode /UseNone
+ /Pages 10 0 R
+ /Type /Catalog >>
+endobj
+% 'R9': class PDFInfo 
+9 0 obj
+<< /Author ()
+ /CreationDate (D:20120317184908+06'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Peter Bui, Teaching Statement) >>
+endobj
+% 'R10': class PDFPages 
+10 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 6 0 R
+ 7 0 R ]
+ /Type /Pages >>
+endobj
+% 'R11': class PDFStream 
+11 0 obj
+% page stream
+<< /Length 7002 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 708.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.5 Tm /F2 17.5 Tf 21 TL 116.8871 0 Td (Peter Bui, Teaching Statement) Tj T* -116.8871 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.3071 cm
+q
+BT 1 0 0 1 0 62 Tm 1.859636 Tw 12 TL /F1 10 Tf 0 0 0 rg (I wish to pursue an academic career because I enjoy sharing my passion and enthusiasm for Computer) Tj T* 0 Tw 1.517893 Tw (Science with students. During the last ten years, I have been fortunate enough to teach and interact with) Tj T* 0 Tw .717062 Tw (students while serving as a peer mentor and a teaching assistant in a variety of courses at the University of) Tj T* 0 Tw .769069 Tw (Notre Dame. Due to my GAANN teaching fellowship from the Department of Education, I have also had the) Tj T* 0 Tw .737893 Tw (opportunity to serve as the sole instructor for two high level Computer Science courses. The following is my) Tj T* 0 Tw (personal reflection on these experiences and what it means to be a good teacher at a university.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Be Well-Prepared) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 2.043775 Tw (One of the most important aspects of teaching is preparation. This implies a couple of things. First, the) Tj T* 0 Tw .665232 Tw (instructor must know the subject very well; it is very difficult to teach with authority when the students detect) Tj T* 0 Tw .472136 Tw (gaps in your knowledge. Sometimes this requires reviewing or learning new material, which was the case for) Tj T* 0 Tw .900834 Tw (me when I was a teaching assistant for Computer Architecture and Logic Design. Although I am a primarily) Tj T* 0 Tw .321859 Tw (software-oriented computer scientist, I approached these hardware courses as an opportunity to reinforce my) Tj T* 0 Tw .295261 Tw (previous education and was able to contribute new lab software and tutorials. From this experience, I learned) Tj T* 0 Tw (that teaching is not only an opportunity to share your knowledge, but to grow and expand it as well.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 404.3071 cm
+q
+BT 1 0 0 1 0 98 Tm .645261 Tw 12 TL /F1 10 Tf 0 0 0 rg (To be well-prepared also means having your teaching materials in order. Few things are more frustrating for) Tj T* 0 Tw .866128 Tw (students than having a class with missing documents or buggy software. For this reason, when I taught the) Tj T* 0 Tw 8.338835 Tw (Computer Graphics \() Tj 0 0 .501961 rg (http://www.nd.edu/~pbui/teaching/cse40166.f10/) Tj 0 0 0 rg (\) and Programming Challenges) Tj T* 0 Tw .957652 Tw (\() Tj 0 0 .501961 rg (http://www.nd.edu/~pbui/teaching/cse40872.f09/) Tj 0 0 0 rg (\) courses, I set up a website that served as the information) Tj T* 0 Tw .832278 Tw (hub for the course, and posted the syllabus, schedule, lectures, and assignments online. Additionally, I also) Tj T* 0 Tw 1.302629 Tw (tested the programming and lab assignments beforehand and had solutions ready. Doing the assignments) Tj T* 0 Tw 1.614011 Tw (myself enabled me to anticipate some of the questions students would have, allowed me to fine-tune the) Tj T* 0 Tw .167612 Tw (material, and aided in constructing clear and fair grading rubrics. Being well-prepared and organized frees the) Tj T* 0 Tw (students to focus on the content of the course, rather than the mechanics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 386.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Engage the Students) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 308.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.250298 Tw (Another critical component of successful teaching is to engage the students. This means avoiding lectures) Tj T* 0 Tw 1.440886 Tw (composed primarily of Powerpoint slides. Such classes tend to bore the students, who end up tuning out.) Tj T* 0 Tw 1.58554 Tw (When I served as a substitute professor for a C/C++ programming course, I opted to use the chalkboard) Tj T* 0 Tw 1.723612 Tw (intermixed with code demonstrations on a projector. Instead of having a deluge of information, we slowly) Tj T* 0 Tw .445232 Tw (unwrapped concepts on the board and the students were free to stop and ask questions. The slower pace of) Tj T* 0 Tw (chalkboard lectures allowed the students to digest the information and encouraged them to actively process it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 182.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL 1.487893 Tw (Of course, not all classes lend themselves to writing on the board. For instance, when I taught Computer) Tj T* 0 Tw 2.464945 Tw (Graphics, I used a mixture of board-based lectures and slide presentations since some of the material) Tj T* 0 Tw 1.580261 Tw (required a richer medium. In these cases, other tactics for engaging the students are required. One such) Tj T* 0 Tw .114951 Tw (method I have utilized is to have students answer review questions during class. This compels the students to) Tj T* 0 Tw .478565 Tw (be current with the material and provides a good basis for discussion. Another method I have employed is to) Tj T* 0 Tw 3.075298 Tw (have students present their solutions to assignments. This can often lead to interesting debates over) Tj T* 0 Tw 2.641012 Tw (programming techniques and strategy, especially if you allow other students to review the solutions. A) Tj T* 0 Tw .263209 Tw (technique I have not yet tried, but plan on using in the future, is to have students brainstorm answers in small) Tj T* 0 Tw 1.156343 Tw (groups and then have a representative report back to the whole class. All of these methods help foster an) Tj T* 0 Tw (open and participatory learning environment, which in turn keeps the students focused and engaged.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 68.30709 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 1.685298 Tw (Having fun and innovative assignments is another effective means of engaging students. In fact, creating) Tj T* 0 Tw .205612 Tw (programming assignments is my favorite part of teaching. When I assisted in the Fundamentals of Computing) Tj T* 0 Tw .299676 Tw (course, I designed a lab that required using a graphical toolkit to program a "battleship" game. Having such a) Tj T* 0 Tw 1.486716 Tw (fun goal for a lab motivated the students to tackle the topic of graphical user interfaces, something which) Tj T* 0 Tw 3.44109 Tw (previous classes struggled to understand. In the teacher evaluations for the Computer Graphics and) Tj T* 0 Tw .834016 Tw (Programming Challenges courses, students frequently complimented the assignments I designed and noted) Tj T* 0 Tw .736716 Tw (how useful they were in helping the students master the concepts covered in class. From my experience as) Tj T* 0 Tw .079069 Tw (both a student and an instructor, I have found that well-designed assignments not only help students learn the) Tj T* 0 Tw (material, but also work in keeping students interested and motivated.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R12': class PDFStream 
+12 0 obj
+% page stream
+<< /Length 7135 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Promote Creativity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .685612 Tw (Good programming assignments also help in another essential part of teaching, which is to promote student) Tj T* 0 Tw .485709 Tw (creativity. Personally, I have found that I learn best by doing. The beauty of Computer Science is that it is so) Tj T* 0 Tw .067709 Tw (easy \(and fun\) to explore and play around with the ideas you learn about; you just need a computer and some) Tj T* 0 Tw 2.374936 Tw (inspiration. When creating programming assignments, I try to ensure that each assignment reinforces a) Tj T* 0 Tw .109121 Tw (specific concept I am trying to teach, while still allowing the students to explore. For instance, in the Computer) Tj T* 0 Tw .399011 Tw (Graphics course, I often created assignments that required specific methods to be utilized, but left the details) Tj T* 0 Tw .632454 Tw (of the graphics to the students. So in an assignment involving modeling a vehicle, students came up with all) Tj T* 0 Tw .181422 Tw (sorts of entertaining programs with objects such as UFOs, rockets, and even a bear riding a scooter. Allowing) Tj T* 0 Tw (the students to personalize their solutions enabled them to develop a deeper understanding of the material.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .630746 Tw (To further promote creativity, I also like to give students large class projects where I specify a few high level) Tj T* 0 Tw .181209 Tw (goals and let them determine most of the details. Usually, I have the students work in small groups in order to) Tj T* 0 Tw .796945 Tw (encourage collaboration and teamwork. In the Computer Graphics course, I had two such projects: create a) Tj T* 0 Tw .507893 Tw (short video and make a 3D computer game. One of the most rewarding moments in my teaching experience) Tj T* 0 Tw 2.447761 Tw (was seeing how the students took the concepts I taught in class and created something amazing. For) Tj T* 0 Tw 1.389657 Tw (instance, one group re-created the Star Wars Death Star scene for their short video, while another built a) Tj T* 0 Tw .922136 Tw (virtual chat world with moving avatars for their game. These larger projects have the pleasant side-effect of) Tj T* 0 Tw (developing the student's portfolio of work, while serving as avenues for creative discovery and exploration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.796278 Tw (Involving undergraduates in your research is also a great way to encourage students to explore different) Tj T* 0 Tw 1.721612 Tw (aspects of Computer Science outside the classroom. When I was an undergraduate, I took advantage of) Tj T* 0 Tw 1.796945 Tw (various research opportunities both at Notre Dame and at outside institutions such as the Jet Propulsion) Tj T* 0 Tw 3.035298 Tw (Laboratory. Later, as a graduate student and instructor, I mentored students on multiple projects that) Tj T* 0 Tw .717014 Tw (produced software still used today. Such research opportunities greatly augment the educational experience) Tj T* 0 Tw .386899 Tw (of students by allowing them to creatively apply the lessons they learned in class to real world problems, and) Tj T* 0 Tw (to discover and explore their interests in a structured but open manner.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Be Accessible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.565483 Tw (Finally, it is important to be accessible to your students and interact with them on a regular basis. At the) Tj T* 0 Tw 1.566727 Tw (university level, the interaction and relationship between teacher and student is paramount to an effective) Tj T* 0 Tw .016716 Tw (education. Because of this, I try to foster communication with my students whenever I can. For instance, when) Tj T* 0 Tw .189167 Tw (I arrived early to the classroom, I walked around and asked the students about the course and how they were) Tj T* 0 Tw 1.748481 Tw (doing on the assignments. This gave me a sense of where they were in their understanding, which then) Tj T* 0 Tw (allowed me to adjust my lecture or review misunderstood concepts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .501612 Tw (During lecture, I frequently solicited questions and comments from the class. Many students were hesitant to) Tj T* 0 Tw .016716 Tw (ask questions, so I provided other means of communication. One tactic was to welcome students to come and) Tj T* 0 Tw .485209 Tw (talk to me during office hours. As an instructor, I found these office visits useful not only for the students, but) Tj T* 0 Tw .371343 Tw (also for myself, since they provided insight into how to better adapt my teaching to meet the students' needs.) Tj T* 0 Tw .923398 Tw (Another means of interaction was through email. From my experience, electronic communication was much) Tj T* 0 Tw .201899 Tw (easier for some students, so I let my class know I was open to answering questions through email. Whenever) Tj T* 0 Tw (I received an email from a student, I responded promptly and encouraged them to come visit my office.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .087136 Tw (A final means of soliciting feedback is to have anonymous questionnaires. In the Computer Graphics course, I) Tj T* 0 Tw 1.093904 Tw (had the students fill out a brief course evaluation at both the midpoint and end of the course. Because the) Tj T* 0 Tw 1.266511 Tw (questionnaire was anonymous, students were free to be honest and frank about their views of the course.) Tj T* 0 Tw 1.511511 Tw (From these answers, I discovered how the students viewed the progress of the class and which teaching) Tj T* 0 Tw 1.542136 Tw (techniques worked and which needed adjusting. In the end, the purpose of being accessible and open to) Tj T* 0 Tw (communication is to ensure that the needs of the students are being met and that they are learning effectively.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.3071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 63.30709 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.224951 Tw (In the future, whenever I approach teaching a class, I will strive to be well-prepared, engage the students,) Tj T* 0 Tw .537612 Tw (promote creativity, and be accessible, which I believe are core components to effective teaching. I recognize) Tj T* 0 Tw 2.725261 Tw (that teaching is a craft that is honed through years of experience and involves continual practice and) Tj T* 0 Tw 2.275261 Tw (improvement. For me, the ultimate goal of teaching Computer Science is to ground the students in the) Tj T* 0 Tw (fundamental principles and concepts of the field, and to inspire in them my passion and enthusiasm.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R13': class PDFOutlines 
+13 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R14': class PDFPageLabels 
+14 0 obj
+% Document Root
+<< /Nums [ 0
+ 15 0 R
+ 1
+ 16 0 R ] >>
+endobj
+% 'R15': class PDFPageLabel 
+15 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R16': class PDFPageLabel 
+16 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 17
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000573 00000 n
+0000000837 00000 n
+0000001087 00000 n
+0000001384 00000 n
+0000001653 00000 n
+0000001810 00000 n
+0000002083 00000 n
+0000002198 00000 n
+0000009299 00000 n
+0000016535 00000 n
+0000016618 00000 n
+0000016724 00000 n
+0000016801 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\034\355U\353\22290\354\032U\351.\237z\205T) (\034\355U\353\22290\354\032U\351.\237z\205T)] 
+
+ /Info 9 0 R
+ /Root 8 0 R
+ /Size 17 >>
+startxref
+16848
+%%EOF

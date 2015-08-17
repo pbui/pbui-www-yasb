@@ -1,0 +1,157 @@
+title:      Teaching Statement
+icon:       "fa-bell"
+prefix:     ../
+navigation: []
+internal:
+    author:         "Peter Bui"
+external:
+body:       |
+
+    <style>
+    body {
+        margin-top: -15px;
+    }
+    </style>
+
+    My primary goal as a Computer Science teacher is to share my passion and
+    enthusiasm for computing with the next generation of programmers,
+    scientists, innovators, and entrepreneurs.  During the last three years, I
+    have been fortunate to teach, mentor, and advise students at the University
+    of Wisconsin - Eau Claire as an assistant professor in the Computer Science
+    department.  Prior to this position, I served as a graduate student
+    instructor, teaching assistant, and peer mentor at the University of Notre
+    Dame.  The following is my personal reflection on these experiences and
+    what it means to be a good teacher at a university.
+
+    One of the most important aspects of teaching is preparation.  First, the
+    instructor must know the subject very well; it is very difficult to teach
+    with authority when students detect gaps in your knowledge. Often this
+    requires the teacher to review or learn new material, which was the case
+    when I first taught CS 352 Computer Organization and Design at UW-Eau
+    Claire. Although I primarily specialize in distributed systems, I
+    approached this course as an opportunity to reinforce my understanding of
+    computer architecture.  In preparing for the class, I created a custom
+    hardware description language (HDL) that enables students to build a simple
+    machine starting from NAND gates.  Additionally, I modified the syllabus to
+    incorporate high performance computing in order to motivate the study of
+    computer architecture.  From this experience, I learned that teaching is
+    not only an opportunity to share your knowledge, but to grow and expand it
+    as well.
+
+    To be well-prepared also means having your class materials in order. Few
+    things are more frustrating for students than having a class with missing
+    materials or buggy software. For this reason, I make a website that
+    contains the syllabus, schedule, lectures, and assignments for each course
+    I teach (for examples, please visit http://cs.uwec.edu/~buipj/teaching).
+    This allows the class to run smoothly as the students are able to find
+    class information in one central online location.  I also make sure that
+    all programming assignments or labs are tested and have solutions ready
+    before students are given them.  Doing the assignments myself allows me to
+    anticipate some of the questions students would have and allows me to
+    fine-tune the material.
+
+    Another critical component of successful teaching is to engage the
+    students. To me, this means avoiding giving lectures composed primarily of
+    Powerpoint slides, which tends to dull students who end up tuning out.
+    When I teach CS 170 Computing for the Sciences and Mathematics, a service
+    course for non CS-majors, I generally use the whiteboard intermixed with
+    demonstrating code on a projector. Instead of having a deluge of
+    information, the students work with me to unwrap concepts and are free to
+    stop and ask questions. The slower pace of these whiteboard lectures allows
+    the students to digest the information presented and encourages them to
+    actively process it.
+
+    Of course, not all classes lend themselves to writing on the board. For
+    instance, when I teach Computer Organization and Design, I use a mixture of
+    the whiteboard and slide presentations since some of material requires a
+    richer medium. In these courses, other tactics for engaging the students
+    are required. One method I frequently utilize is to ask review questions at
+    the beginning of class and to have the students answer them first in small
+    groups and then with the whole class (i.e.  a variant of think-pair-share).
+    This compels the students to be current with the material and provides a
+    good basis for discussion.  Likewise, throughout the lecture, I often ask
+    probing questions such as to predict what will happen in a piece of code or
+    to explain a concept.
+
+    Another method that I employ in programming courses is to have students
+    present their solutions to assignments. This leads to interesting
+    discussions over programming techniques and approaches, especially if other
+    students are allowed to review the solutions.  I also often bring a student
+    up to the computer or board to be the "driver".  In this situation, the
+    student performs the mechanics of either typing in code or writing on the
+    board, while I work with the rest of the class to guide the "driver" in
+    solving the problem at hand.  All these methods are useful in that they not
+    only help keep students engaged, but they also allow the instructor to
+    assess the overall progress of the class in an informal manner.
+
+    Having fun and innovative assignments is also an effective means of
+    engaging and motivating students.  In fact, creating programming
+    assignments is my favorite part of teaching. For instance, in CS 388 Unix
+    Systems Programming, I had the students write a filesystem monitor, an I/O
+    proxy, and even a HTTP server. For the CS 170 course, I have assignments
+    such as calculating Pi using a Monte Carlo simulation and plotting
+    projectile motion in order to connect Computer Science with different
+    fields such Mathematics and Physics.  From my experience, well-designed and
+    challenging assignments not only help students learn the material, but also
+    work in keeping students interested and motivated.
+    
+    Good programming assignments also help in another essential part of
+    teaching, which is to promote student creativity. Personally, I have found
+    that I learn best by doing. The beauty of Computer Science is that it is so
+    easy (and fun) to explore and play around with the ideas and concepts you
+    learn about; you just need a computer and some inspiration. As noted
+    earlier, I immensely enjoy devising programming assignments, and I try to
+    ensure that each assignment reinforces a very specific concept or idea,
+    while still allowing the students to explore. For instance, in CS 163
+    Introduction to Programming in C++, I created an assignment that required
+    implementing a few drawing primitives, but then allowed the students to
+    utilize these functions to create any image they wanted.  Because of this
+    freedom, students submitted a variety of fun and interesting images such as
+    Sponge Bob Square Pants, the hungry caterpillar, the flag of FC Barcelona.
+
+    To further promote creativity, I also like to incorporate large class
+    projects in my courses. For these projects, I give the students a high
+    level goal and let them determine most of the details. Usually, I let the
+    students work in groups of two or three, which also helps them practice
+    collaboration and teamwork. In the CS 491 Cloud Computing course, I had two
+    such projects. For the one lab, the students were charged with benchmarking
+    different virtual machines on Amazon EC2.  In the second assignment, the
+    students had to create a web service that utilized a cloud computing
+    platform and a NoSQL datastore.  Such projects allow the students to apply
+    their knowledge to something that is relevant and interesting them, while
+    utilizing their imagination and creativity.  Moreover, these larger
+    projects serve not only as avenues for discovery, but also have the
+    pleasant side-effect of developing the student's portfolio of work.
+    
+    Finally, it is important to be accessible to your students and interact
+    with them on a regular basis. At the university level, the relationship
+    between teacher and student is paramount to an effective education. Because
+    of this, I try to foster communication with my students however I can. For
+    instance, during lecture I frequently solicit questions or comments from
+    the students. Of course, most students are hesitant to ask questions in
+    class, so I provide other means of communication. One common tactic is to
+    hold office hours, so that students can come and talk to me one-on-one.
+    At UW-Eau Claire, I have an open door policy where students can stop by
+    whenever my door is open (which is almost all the time).  I have found
+    these office visits useful not only for the student requiring help, but
+    also for myself since it provided insight to any shortcomings in teaching.
+    
+    Another means of interaction is through electronic communication. From my
+    experience, email or chat is much easier for some students, and so I let my
+    classes know I am open to answering questions through email and internet
+    relay chat (IRC).  Additionally, I have also begun using Google+ as a
+    communication platform in each of my classes.  This allows not only the
+    instructor but also the students to share information with each other on a
+    common platform.  Regardless of which communication system is used,
+    whenever I receive a message from a student, I try to respond promptly.  If
+    the problem is too complex to discuss effectively over the network, then I
+    encourage the student to come to my office hours or I try to follow up
+    after class.
+
+    Whenever I approach teaching a course, I strive to be well-prepared, engage
+    the students, promote creativity, and be accessible, which I believe are
+    core components to effective teaching. I recognize that teaching is a craft
+    that is honed through years of experience and involves continual practice
+    and improvement. For me, the ultimate goal of teaching Computer Science is
+    to ground the students in the fundamental principles and concepts of the
+    field, and to inspire in them my passion and enthusiasm.

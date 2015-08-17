@@ -1,0 +1,84 @@
+- description: "My instructor's <strong>presentation style</strong> is effective for me."
+  summary: Presentation Style
+
+- description: "My instructor promotes a <strong>classroom atmosphere</strong> that does not
+discriminate against or reflect negatively on any individual or group based on
+race, gender, ethnicity, sexual orientation, religion, physical
+limitations/disabilities, age, or economic status."
+  summary: Classroom Atmosphere
+
+- description: "My instructor displays a clear <strong>understanding</strong> of course topics."
+  summary: Understanding
+
+- description: "My instructor makes the course <strong>interesting</strong>."
+  summary: Interesting
+
+- description: "My instructor explains <strong>complex material</strong> clearly."
+  summary: Complex Material
+
+- description: "My instructor supplies me with an effective range of <strong>challenges</strong>."
+  summary: Challenges
+
+- description: "My instructor makes me feel <strong>involved</strong> in this course."
+  summary: Involved
+
+- description: "My instructor <strong>motivates</strong> me to do my best work."
+  summary: Motivates
+
+- description: "My instructor emphasizes <strong>relationships</strong> between and among topics."
+  summary: Relationships
+
+- description: "My instructor encourages students to consider new and varied <strong>points
+of view</strong> as well as alternative sources of information and ways of
+doing things."
+  summary: Points of View
+
+- description: "When appropriate, my instructor intentionally addresses how
+<strong>differences</strong> among humans (characteristics, attitudes,
+backgrounds, or any other differences) impact the course's subject matter."
+  summary: Human Differences
+
+- description: "If a fellow student were interested in taking this course, I would
+<strong>recommend</strong> this instructor."
+  summary: Recommended
+
+- description: "My instructor makes efforts to <strong>help</strong> me
+<strong>outside</strong> of scheduled class time (Examples of such efforts
+include such things as office hours, email responses, course web pages, course
+management software, review sessions, etc.)"
+  summary: Outside Help
+
+- description: "My instructor values and <strong>respects</strong> the questions, comments,
+perspectives, and contributions made by all students."
+  summary: Respects
+
+- description: "My instructor maintains a classroom environment that <strong>promotes learning</strong>."
+  summary: Promotes Learning
+               
+- description: "My instructor will assign a final <strong>grade</strong> for me that will
+<strong>accurately</strong> reflect my overall performance."
+  summary: Accurate Grade
+
+- description: "My instructor provides course <strong>assignments</strong> that are
+interesting, stimulating, and engaging."
+  summary: Assignments
+
+- description: "My instructor <strong>connects</strong> the content of this course to
+non-computer science courses."
+  summary: Connects Non-CS
+
+- description: "My instructor provides class notes, handouts, study guides, lecture
+outlines, online materials, and/or presentation materials, as appropriate, to
+<strong>aid</strong> me in my learning."
+  summary: Learning Aids
+
+- description: "My instructor <strong>adds value</strong>, during class or lab, to the
+printed or electronic materials provided."
+  summary: Adds Value
+
+- description: "My instructor gives adequate, helpful and impartial
+<strong>feedback</strong>."
+  summary: Feedback
+
+- description: "My instructor is an <strong>effective</strong> teacher."
+  summary: Effective

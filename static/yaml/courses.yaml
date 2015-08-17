@@ -1,0 +1,150 @@
+- title:    CDT 30010 Script-based Programming I
+  semester: Fall 2015
+  link:     http://www3.nd.edu/~pbui/teaching/cdt.30010.fa15
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 20110 Discrete Mathematics
+  semester: Fall 2015
+  link:     ""
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 30331 Data Structures
+  semester: Fall 2015
+  link:     http://www3.nd.edu/~dchiang/teaching/ds/2015/
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CS 170 Computing for the Sciences and Mathematics
+  semester: Spring 2015
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.170.s15
+  school:   University of Wisconsin - Eau Claire
+
+- title:    CS 252 Computer Systems
+  semester: Spring 2015
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.252.s15
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    CS 352 Computer Organization and Design
+  semester: Fall 2014
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.352.f14
+  school:   University of Wisconsin - Eau Claire
+
+- title:    CS 491 Programming Challenges
+  semester: Fall 2014
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.491.f14
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    CS 170 Computing for the Sciences and Mathematics
+  semester: Spring 2014
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.170.s14
+  school:   University of Wisconsin - Eau Claire
+
+- title:    CS 388 Unix Systems Programming
+  semester: Spring 2014
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.388.s14
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    CS 352 Computer Organization and Design
+  semester: Fall 2013
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.352.f13
+  school:   University of Wisconsin - Eau Claire
+
+- title:    IDIS 151 Demystifying Computing
+  semester: Fall 2013
+  link:     http://cs.uwec.edu/~buipj/teaching/idis.151.f13
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    CS 170 Computing for the Sciences and Mathematics
+  semester: Spring 2013
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.170.s13
+  school:   University of Wisconsin - Eau Claire
+
+- title:    CS 491 Cloud Computing
+  semester: Spring 2013
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.491.s13
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    CS 163 Introduction to Programming in C++
+  semester: Fall 2012
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.163.f12
+  school:   University of Wisconsin - Eau Claire
+
+- title:    CS 352 Computer Organization and Design
+  semester: Fall 2012
+  link:     http://cs.uwec.edu/~buipj/teaching/cs.352.f12
+  school:   University of Wisconsin - Eau Claire
+
+
+- title:    Boeing Academic Excellence Workshop - Introduction to Computer Science
+  school:   University of Notre Dame
+  semester: Summer 2011
+
+- title:    CSE 20232 C/C++ Programming
+  role:     Substitute
+  school:   University of Notre Dame
+  semester: Summer 2011
+
+- title:    CSE 40166 Computer Graphics
+  school:   University of Notre Dame
+  semester: Fall 2010
+
+- title:    CSE 20232 C/C++ Programming
+  role:     Substitute
+  school:   University of Notre Dame
+  semester: Summer 2010
+
+- title:    CSE 40872 Programming Challenges and Problem Solving
+  school:   University of Notre Dame
+  semester: Fall 2009
+
+- title:    CSE 20221 Logic Design and Sequential Circuits
+  semester: Spring 2009
+  role:     Teaching Assistant
+  school:   University of Notre Dame
+
+- title:    CSE 20221 Logic Design and Sequential Circuits
+  semester: Spring 2008
+  role:     Teaching Assistant
+  school:   University of Notre Dame
+
+- title:    "CSE 40881 Extreme Computing: Parallel CPU Programming"
+  school:   University of Notre Dame
+  role:     Teaching Assistant
+  semester: Fall 2008
+
+- title:    CSE 30321 Computer Architecture I
+  role:     Teaching Assistant
+  semester: Fall 2007
+  school:   University of Notre Dame
+
+- title:    CSE 30331 Data Structures
+  role:     Teaching Assistant
+  school:   University of Notre Dame
+  semester: Fall 2005
+
+- title:    CSE 20212 Fundamentals of Computing II
+  semester: Spring 2005
+  school:   University of Notre Dame
+  role:     Teaching Assistant
+
+- title:    CSE 20211 Fundamentals of Computing I
+  semester: Fall 2004
+  school:   University of Notre Dame
+  role:     Teaching Assistant
+
+- title:    EG 10111 Introduction to Engineering II
+  school:   University of Notre Dame
+  role:     Peer Mentor
+  semester: Spring 2004
+
+- title:    EG 10110 Introduction to Engineering I
+  school:   University of Notre Dame
+  role:     Peer Mentor
+  semester: Fall 2003

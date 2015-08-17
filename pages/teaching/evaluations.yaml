@@ -1,0 +1,81 @@
+title:      Evaluations
+prefix:     ../
+icon:       fa-gavel
+navigation: []
+internal:
+external:
+    evaluations:    "static/yaml/evaluations.yaml"
+    metrics:        "static/yaml/metrics.yaml"
+body:       |
+
+    <style>
+    body {
+        margin-top: -15px;
+    }
+    </style>
+    
+    <div class="row" markdown="1">
+
+    {% for course in page.external.get('evaluations', []) %}
+
+    <h3>{{ course['title'] }}</h3>
+
+    <table class="table table-condensed table-striped table-bordered">
+    <thead>
+        <th>Number</th>
+        <th>Metric</th>
+        <th>Score</th>
+    </thead>
+    <tbody>
+        {% for i, (score, metric) in enumerate(zip(course['scores'], page.external.get('metrics'))) %}
+        {% set percent = score * 100 / 5 %}
+        {% if score > 4 %}
+            {% set progress = 'progress-bar-success' %}
+        {% elif score > 3 %}
+            {% set progress = 'progress-bar-info' %}
+        {% elif score > 2 %}
+            {% set progress = 'progress-bar-warning' %}
+        {% elif score > 1 %}
+            {% set progress = 'progress-bar-danger' %}
+        {% end %}
+        <tr>
+            <td>{{ i + 1 }}</td>
+            <td><strong>{{ metric['summary'] }}</strong></td>
+            <td style="width: 60%;">
+                <div class="progress" style="margin: 0px;">
+                    <div class="progress-bar {{ progress }}" role="progressbar" aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent }}%;" style="height: 100%;">
+                    {{ score }}
+                    </div>
+                </div>
+            </td>
+        </tr>
+        {% end %}
+    <tbody>
+    </table>
+    <p style="page-break-after:always;"></p>
+    {% end %}
+
+    </div>
+
+    <div class="row" markdown="1">
+
+    <h3>Metrics</h3>
+
+    <table class="table table-striped table-bordered">
+    <thead>
+        <th>Number</th>
+        <th>Description</th>
+        <th>Summary</th>
+    </thead>
+    <tbody>
+        {% for i, metric in enumerate(page.external.get('metrics', [])) %}
+        <tr>
+            <td>{{ i + 1 }}</td>
+            <td>{% raw metric['description'] %}</td>
+            <td><strong>{{ metric['summary'] }}</strong></td>
+        </tr>
+        {% end %}
+    </tbody>
+    </table>
+
+    </div>

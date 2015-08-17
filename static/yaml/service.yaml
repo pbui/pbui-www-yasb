@@ -1,0 +1,133 @@
+undergraduates:
+    - name:         John Stupka
+      year:         2015
+    
+    - name:         Haley Muotka
+      year:         2015
+    
+    - name:         Trey Zahradka
+      year:         2015
+    
+    - name:         Lucas Novoa
+      year:         2015
+    
+    - name:         Charles Volzka
+      year:         2015
+    
+    - name:         Grant Wuerker
+      year:         2015
+    
+    - name:         Matt Kennedy
+      year:         2015
+
+    - name:         John Fisher
+      year:         2014
+
+    - name:         Robert Fisher
+      year:         2014
+    
+    - name:         Ben Singer
+      year:         2014
+    
+    - name:         Nate Carr
+      year:         2014
+    
+    - name:         Hyoki Lee
+      year:         2014
+    
+    - name:         Zach Zens
+      year:         2014
+    
+    - name:         Chris Haynes
+      year:         2014
+    
+    - name:         Corey Feiock
+      year:         2014
+    
+    - name:         Justin Feiock
+      year:         2014
+    
+    - name:         Nicholas Hasz
+      year:         2014
+    
+    - name:         Travis Boettcher
+      year:         2014
+    
+    - name:         John Rankin
+      year:         2014
+
+    - name:         Mitchell Wood
+      year:         2013
+    
+    - name:         Nicholas Hasz 
+      year:         2013
+    
+    - name:         Nicholas Jaeger
+      year:         2013
+    
+    - name:         James Felton
+      year:         2013
+    
+    - name:         Adam Al-Ibrahim
+      year:         2013
+    
+    - name:         Travis Boettcher
+      year:         2013
+    
+    - name:         Natalie Wolf
+      year:         2013
+    
+    - name:         Corey Feiock
+      year:         2013
+    
+    - name:         Jeffrey Westphal
+      year:         2013
+
+    - name:         Cameron Bjorklund
+      year:         2013
+
+    - name:         Nicholas Goble
+      year:         2013
+
+    - name:         Travis Bischell
+      year:         2013
+
+advising:
+    - name:         Computer Science Advisor
+      year:         2012 - Present
+
+    - name:         Transfer transcript analysis
+      year:         Winter 2012
+
+    - name:         Winter Interim Advising Workshop
+      year:         Winter 2012
+
+organizations:
+    - name:         University of Wisconsin - Eau Claire Student ACM
+      role:         Faculty Advisor
+      year:         2013 - Present
+
+    - name:         University of Wisconsin - Eau Claire Linux Users Group
+      role:         Faculty Advisor
+      year:         2013 - 2014
+
+    - name:         Notre Dame Linux Users Group
+      role:         President
+      year:         2005 - 2006
+
+program_committee:
+    - name:         CIGPU
+      title:        Computational Intelligence on Consumer Games and Graphics Hardware
+      year:         2010
+    - name:         CIGPU
+      title:        Computational Intelligence on Consumer Games and Graphics Hardware
+      year:         2012
+    - name:         CCGRID
+      title:        International Symposium on Cluster, Cloud and Grid Computing
+      year:         2013
+    - name:         COMPJ
+      title:        The Computer Journal
+      year:         2013
+    - name:         BigData
+      title:        IEEE International Congress on Big Data
+      year:         2013

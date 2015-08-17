@@ -1,0 +1,352 @@
+- title:    "WIDLE: A Web Based Linux Interface"
+  link:
+  type:     Poster
+  authors:
+        - Lucas Novoa
+        - Charles Volzka
+        - Peter Bui
+  venue:    CERCA2015
+  date:     2015-05
+  tags:
+        - Web Service
+        - Linux
+        - ORSP
+  note:
+
+- title:    "Obelisk: Summoning Minions on a HPC Cluster"
+  link:
+  type:     Poster
+  authors:
+        - Grant Wuerker
+        - Peter Bui
+  venue:    CERCA2015
+  date:     2015-05
+  tags:
+        - HPC
+        - Web Service
+        - ORSP
+  note:
+
+- title:    "Monitoring, Analyzing, and Visualizing Distributed Computing Clusters"
+  link:
+  type:     Poster
+  authors:
+        - John Stupka
+        - Peter Bui
+  venue:    MICS2015
+  date:     2015-04
+  tags:
+        - RaspberryPi
+        - Web Service
+        - ORSP
+  note:
+
+- title:    "SnakeWrangler"
+  link:
+  type:     Poster
+  authors:
+        - Haley Muotka
+        - Trey Zahradka
+        - Peter Bui
+  venue:    CERCA2015
+  date:     2015-05
+  tags:
+        - Web Service
+        - Linux
+        - IPython
+        - ORSP
+  note:
+
+- title:    "Integration of atmospheric sensors into Unmanned Aerial Vehicle platforms"
+  link:
+  type:     Poster
+  authors:
+        - Matthew Kennedy
+        - Peter Bui
+  venue:    CERCA2015
+  date:     2015-05
+  tags:
+        - Embedded Systems
+        - UAV
+        - Mavlink
+        - ORSP
+  note:
+
+- title:     "Madeup: A Language for Making Things Up"
+  link:
+  type:     Poster
+  authors:
+        - Peter Bui
+        - Chris Johnson
+  venue:    SIGCSE2015
+  date:     2015-03
+  tags:
+        - sigcse
+
+- title:    "Integrating MAVLink with LABView: An Arduino-based Autonomous Robotics Platform"
+  link:
+  type:     Poster
+  authors:
+        - Zach Zens
+        - Hyoki Lee
+        - Kim Pierson
+        - Peter Bui
+  venue:    CERCA2014
+  date:     2014-05
+  tags:
+        - mavlink
+        - UAV
+        - ORSP
+  note:
+
+- title:    "Social Gaming with Chromecast"
+  link:
+  type:     Poster
+  authors:
+        - Justin Feiock
+        - Corey Feiock
+        - Nicholas Hasz
+        - Peter Bui
+  venue:    CERCA2014
+  date:     2014-05
+  tags:
+        - social gaming
+        - chromecast
+  note:
+
+- title:    "A Web Portal For An Animation Render Farm"
+  link:
+  type:     Poster
+  authors:
+        - John Rankin
+        - Travis Boettcher
+        - Peter Bui
+  venue:    CERCA2014
+  date:     2014-05
+  tags:
+  note:
+
+- title:    "Dark Nebula: Using the Cloud to Build a RESTful Web Service"
+  link:
+  type:     Poster
+  authors:
+        - John Fisher
+        - Robert Fisher
+        - Peter Bui
+  venue:    CERCA2014
+  date:     2014-05
+  tags:
+  note:
+
+- title:    "Social Gaming with Chromecast"
+  link:
+  type:     Demo
+  authors:
+        - Justin Feiock
+        - Corey Feiock
+        - Nicholas Hasz
+        - Peter Bui
+  venue:    MICS2014
+  date:     2014-04
+  tags:
+        - social gaming
+        - chromecast
+  note:
+
+- title:    "Scientific, Distributed, Cloud Computing"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/scientific-sacm2013.pdf
+  type:     Talk
+  authors:
+        - Peter Bui
+  venue:    SACM2013
+  date:     2013-12
+  tags:
+
+- title:    "Work Queue: A Master/Worker Framework for PDC Education and Research"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/wq-hpced2013.pdf
+  type:     Poster
+  authors:
+        - Peter Bui
+  venue:    HPCED2013
+  date:     2013-11
+  tags:
+        - HPC
+        - WorkQueue
+  note:
+
+- title:    "Using Work Queue Inside and Outside the Classroom"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/wq-ccl2013.pdf
+  type:     Talk
+  authors:
+        - Peter Bui
+  venue:    CCL2013
+  date:     2013-10
+  tags:
+        - HPC
+        - WorkQueue
+        - CCL
+  note:
+
+- title:    "Using HTCondor for Teaching and Research at UWEC"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/htcondor-condor2013.pdf
+  type:     Talk
+  authors:
+        - Peter Bui
+  venue:    CONDOR2013
+  date:     2013-05
+  tags:
+        - WorkQueue
+        - HTCondor
+  note:
+
+- title:    "Buster: Distributed Graphical Visualizations on a Budget-minded Cluster"
+  link:
+  type:     Poster
+  authors:
+        - James Felton
+        - Adam Al-Ibrahim
+        - Peter Bui
+        - Chris Johnson
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+        - RPI
+        - Visualization
+        - Game
+  note:
+
+- title:    "Scalable Distributed Image Transcoding using Python-WorkQueue"
+  link:
+  type:     Poster
+  authors:
+        - Jeffrey Westphal
+        - Peter Bui
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+  note:
+
+- title:    "Media Server Portal"
+  link:
+  type:     Poster
+  authors:
+        - Nicholas Goble
+        - Cameron Bjorklund
+        - Peter Bui
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+  note:
+
+- title:    "Collaborating Graphical Evidence: Distributed Photo Processing"
+  link:
+  type:     Poster
+  authors:
+        - Nicholas Jaeger
+        - Peter Bui
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+  note:
+
+- title:    "A Music Filled Flask: Real Time Distributed Transcoding"
+  link:
+  type:     Poster
+  authors:
+        - Nicholas Jaeger
+        - Trey Zahradka
+        - Peter Bui
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+  note:
+
+- title:    "Using Distributed Computing to Decrease Render Times"
+  link:
+  type:     Poster
+  authors:
+        - Travis Boettcher
+        - Peter Bui
+  venue:    CERCA2013
+  date:     2013-04
+  tags:
+  note:
+
+- title:    "Distributed Graphical Visualizations on a Bramble of Raspberry Pis"
+  link:
+  type:     Demo
+  authors:
+        - James Felton
+        - Adam Al-Ibrahim
+        - Peter Bui
+        - Chris Johnson
+  venue:    MICS2013
+  date:     2013-04
+  tags:
+        - RPI
+        - Visualization
+        - Game
+  note:
+
+- title:    "A Compiler Toolchain for Workflows"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/toolchain-ccl2012.pdf
+  type:     Talk
+  authors:
+        - Peter Bui
+  venue:    CCL2012
+  date:     2012-06
+  tags:
+  note:
+
+- title:    "Compiling and Linking Workflows"
+  link:     http://cs.uwec.edu/~buipj/static/pdf/weaver-condor2012.pdf
+  type:     Talk
+  authors:
+        - Peter Bui
+  venue:    CONDOR2012
+  date:     2012-05
+  tags:
+  note:
+
+- title:    "Weaver: Simple Distributed Scientific Programming"
+  link:     http://cs.uwec.edu/~buipj/static/img/weaver-cidays2010.gif
+  type:     Poster
+  authors:
+        - Peter Bui
+        - Douglas Thain
+  venue:    CSE2010
+  date:     2010-11
+  tags:
+  note:
+
+- title:    "Work Queue: A Scalable Master/Worker Framework"
+  link:     http://www.cse.nd.edu/~ccl/software/tutorials/work_queue_tutorial_20100629.ppt
+  type:     Poster
+  authors:
+        - Peter Bui
+        - Li Yu
+  venue:    CCL2010
+  date:     2010-06
+  tags:
+  note:
+
+- title:    "Weaving Abstractions into Workflows"
+  link:     http://cs.uwec.edu/~buipj/static/img/weaver-condor2010.gif
+  type:     Poster
+  authors:
+        - Peter Bui
+  venue:    CONDOR2010
+  date:     2010-05
+  tags:
+  note:
+
+- title:    "Weaver: Simple Distributed Scientific Programming"
+  link:     http://cs.uwec.edu/~buipj/static/img/weaver-cidays2010.gif
+  type:     Poster
+  authors:
+        - Peter Bui
+        - Douglas Thain
+  venue:    CIDAYS2010
+  date:     2010-04
+  tags:
+  note:

@@ -1,0 +1,36 @@
+title:      References
+icon:       ""
+navigation: []
+internal:
+    author:         "Peter Bui"
+external:
+    references:  "static/yaml/references.yaml"
+body:       |
+
+    <style>
+    body {
+        margin-top: -15px;
+    }
+    </style>
+
+    <div style="text-align: center;">
+        <small>
+            Peter James Bui, 3634 Goldridge Road, Eau Claire, WI 54701<br/>
+            <i class="fa fa-phone"></i> 715 255 0396&nbsp;&nbsp;
+            <i class="fa fa-envelope"></i> <a href="mailto:peter.j.bui@gmail.com">peter.j.bui@gmail.com</a>&nbsp;&nbsp;
+            <i class="fa fa-globe"></i> <a href="http://cs.uwec.edu/~buipj">cs.uwec.edu/~buipj</a>
+        </small>
+    </div>
+
+    <ol class="list-spaced">
+        {% for entry in page.external.get('references', []) %}
+        <li>
+            <strong>{{ entry['name'] }}</strong>
+            <ul>
+                <li><strong>Institution:</strong> {{ entry['school'] }}</li>
+                <li><strong>Phone:</strong> {{ entry['phone'] }}</li>
+                <li><strong>Email:</strong> {{ entry['email'] }}</li>
+            </ul>
+        </li>
+        {% end %}
+    <ul>

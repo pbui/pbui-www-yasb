@@ -1,0 +1,70 @@
+title:      Research
+prefix:     ../
+icon:       fa-lightbulb-o
+navigation:
+    - name: "Home"
+      link: "../index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "../teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "../research/"
+      icon: "fa-pencil"
+    - name: "Calendar"
+      link: "../calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "../about.html"
+      icon: "fa-user"
+internal:
+    author:         "Peter Bui"
+external:
+    presentations:  "static/yaml/presentations.yaml"
+    publications:   "static/yaml/publications.yaml"
+    venues:         "static/yaml/venues.yaml"
+body:       |
+
+    <div class="row" markdown="1">
+
+    My primary **research** interests are in the areas of distributed and
+    parallel computing, systems programming, and web services  with
+    applications in scientific and cloud computing. To pursue these interests,
+    I collaborate with undergraduate students on various research projects and
+    publish open source software.
+
+    </div>
+
+    {% for collection in ('publications', 'presentations') %}
+
+    <div class="row">
+        <h3>Recent {{ collection.title() }}</h3>
+        <ol class="list-spaced">
+        {% for item in page.external.get(collection, [])[:5] %}
+            {% set item_link    = item.get('link', '') or '' %}
+            {% set item_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in item['authors']] %}
+            {% set item_authors = item_authors[:-1] + ['and ' + item_authors[-1]] %}
+            {% set item_authors = ', '.join(item_authors) if len(item_authors) >= 3 else ' '.join(item_authors) %}
+            {% set item_venue   = page.external['venues'][item['venue']] %}
+            <li>
+                {% raw item_authors %}.
+                <a href="{{ item_link }}">{{ item['title'] }}</a>.
+                {% if item.get('type', None) %}
+                <em>{{ item['type'] }}</em>.
+                {% end %}
+                {{ item_venue['title'] }} (<a href="{{ item_venue['link'] }}">{{ item['venue'] }}</a>).
+                {% if item_venue['location'] %}
+                {{ item_venue['location'] }}.
+                {% end %}
+                {{ dateutil.parser.parse(item['date']).strftime('%B, %Y') }}.
+                {% if item.get('note', None) %}
+                <strong>{{ item['note'] }}</strong>.
+                {% end %}
+            </li>
+        {% end %}
+        </ol>
+
+        <div class="btn-toolbar pull-right"><a class="btn btn-primary btn-sm" href="{{ collection }}.html">Complete {{ collection.title() }} List</a></div>
+    </div>
+
+    {% end %}

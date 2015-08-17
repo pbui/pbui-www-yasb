@@ -1,0 +1,238 @@
+education:
+    - year:         2012
+      degree:       Ph.D.
+      major:        Computer Science and Engineering
+      school:       University of Notre Dame
+    - year:         2010
+      degree:       M.S.
+      major:        Computer Science and Engineering
+      school:       University of Notre Dame
+    - year:         2006
+      degree:       B.S.
+      major:        Computer Science
+      school:       University of Notre Dame
+awards:
+    - year:         2010-2012
+      title:        GAANN Fellowship
+      organization: US Department of Education
+    - year:         2011
+      title:        Computer Science Engineering Student Poster Award
+      organization: University of Notre Dame
+    - year:         2006-2010
+      title:        Schmitt Fellowship
+      organization: Arthur J. Schmitt Foundation
+    - year:         2006
+      title:        Outstanding Computer Science Undergraduate
+      organization: University of Notre Dame
+    - year:         2006
+      title:        Summa Cum Laude
+      organization: University of Notre Dame
+grants:
+    - year:         2014
+        - text: >
+            *GeoSpatial Education Initiative*.
+            [Growth Agenda-Institutional Change Grant](http://www.uwec.edu/Geography/academics/GrowthAgendaGrant.htm).
+    - year:         2013
+      grants:
+        - text: >
+            *A High-Perfomance Supercomputer Cluster for UW-Eau Claire*.
+            [Blugold Commitment Differential Tuition](http://www.uwec.edu/BC/index.htm).
+        - text: >
+            *Amazon Educational Grant*.
+            [Amazon Web Services](http://aws.amazon.com/education/).
+    - year:         2012
+      grants:
+        - text: >
+            *HPC Educator's Program*.
+            [Supercomputing 2012](http://sc12.supercomputing.org/content/hpc-educators).
+        - text: >
+            *LittleFe Buildout*.
+            [Supercomputing 2012](http://sc12.supercomputing.org/content/littlefe-buildout).
+        - text: >
+            *Buster: A Budget-minded Cluster*.
+            [Office of Research and Sponsored Programs](http://www.uwec.edu/orsp/).
+            [University of Wisconsin - Eau Claire](http://www.uwec.edu/).
+        - text: >
+            *Collaborative Animation Rendering System*.
+            [Office of Research and Sponsored Programs](http://www.uwec.edu/orsp/).
+            [University of Wisconsin - Eau Claire](http://www.uwec.edu/).
+undergrads:
+    - name:         Mitchell Wood
+      time:         2013
+      description:  Notification web service.
+    - name:         Nicholas Hasz
+      time:         2013
+      description:  Notification web service.
+    - name:         Corey Feiock
+      time:         2013
+      description:  Notification web service.
+    - name:         Travis Boettcher 
+      time:         2013
+      description:  Animation render farm.
+    - name:         Cameron Bjorklund
+      time:         2013
+      description:  Media server portal.
+    - name:         Nicholas Goble
+      time:         2013
+      description:  Media server portal.
+    - name:         Jeffrey Westphal
+      time:         2012-2013
+      description:  Scalable image transcoding.
+    - name:         Nicholas Jaeger
+      time:         2012-2013
+      description:  Distributed photo processing pipeline, real-time audio transcoding.
+    - name:         James Felton
+      time:         2012-2013
+      description:  Distributed graphical visualizations using Raspberry Pi's.
+    - name:         Adam Al-Ibrahim
+      time:         2012-2013
+      description:  Distributed graphical visualizations using Raspberry Pi's.
+    - name:         Samuel Lopes
+      time:         2011
+      description:  Visualization and monitoring of distributed workflows.
+    - name:         Kevin Partington
+      time:         2010
+      description:  Graph-based distributed workflows.
+courses:
+    - number:       CS 163
+      title:        Introduction to Programming in C++
+      institution:  University of Wisconsin - Eau Claire
+      role:         Instructor
+      semesters:    
+        - Fall 2012
+    - number:       CS 170
+      title:        Computing for Sciences and Mathematics
+      institution:  University of Wisconsin - Eau Claire
+      role:         Instructor
+      semesters:    
+        - Spring 2013, Spring 2014, Spring 2015
+    - number:       CS 352
+      title:        Computer Organization and Design
+      institution:  University of Wisconsin - Eau Claire
+      role:         Instructor
+      semesters:    
+        - Fall 2012, Fall 2013, Fall 2014
+    - number:       CS 491
+      title:        Cloud Computing
+      institution:  University of Wisconsin - Eau Claire
+      role:         Instructor
+      semesters:    
+        - Spring 2013
+    - number:       CSE 20221
+      title:        Logic Design and Sequential Circuits
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Spring 2008
+        - Spring 2009
+    - number:       CSE 20211
+      title:        Fundamentals of Computing I
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Fall 2004
+    - number:       CSE 20212
+      title:        Fundamentals of Computing II
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Spring 2005
+    - number:       CSE 20232
+      title:        C/C++ Programming
+      institution:  University of Notre Dame
+      role:         Substitute
+      semesters:    
+        - Summer 2010
+        - Summer 2011
+    - number:       CSE 30321
+      title:        Computer Architecture I
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Fall 2007
+    - number:       CSE 30331
+      title:        Data Structures
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Fall 2005
+    - number:       CSE 40166
+      title:        Computer Graphics
+      institution:  University of Notre Dame
+      role:         Instructor
+      semesters:    
+        - Fall 2010
+    - number:       CSE 40872
+      title:        Programming Challenges and Problem Solving
+      institution:  University of Notre Dame
+      role:         Instructor
+      semesters:    
+        - Fall 2009
+    - number:       CSE 40881
+      title:        "Extreme Computing: Parallel CPU Programming"
+      institution:  University of Notre Dame
+      role:         Teaching Assistant
+      semesters:    
+        - Fall 2008
+    - number:       EG 10110
+      title:        Introduction to Engineering I
+      institution:  University of Notre Dame
+      role:         Peer Mentor
+      semesters:    
+        - Fall 2003
+    - number:       EG 10111
+      title:        Introduction to Engineering II
+      institution:  University of Notre Dame
+      role:         Peer Mentor
+      semesters:    
+        - Spring 2004
+workshops:
+    - name:         Boeing Academic Excellence Workshop
+      title:        Introduction to Computer Science
+      institution:  University of Notre Dame
+      role:         Instructor
+      semesters:    
+        - Summer 2011
+studies:
+    - name:         Cameron Bjorklund
+      time:         2013
+      description:  Python, web services, and multimedia streaming.
+    - name:         Nicholas Goble
+      time:         2013
+      description:  Python, web services, and multimedia streaming.
+    - name:         Travis Bischell
+      time:         2013
+      description:  Go, artificial intelligence.
+advising:
+    - name:         TTA
+      title:        Transfer transcript analysis.
+      years:        Winter 2012
+    - name:         WIAW
+      title:        Winter Interim Advising Workshop.
+      years:        Winter 2012
+organizations:
+    - name:         UWEC LUG
+      title:        University of Wisconsin - Eau Claire Linux Users Group
+      role:         Faculty Advisor
+      years:        2013
+    - name:         UWEC SACM
+      title:        University of Wisconsin - Eau Claire Student ACM
+      role:         Faculty Advisor
+      years:        2013
+    - name:         ND LUG
+      title:        Notre Dame Linux Users Group
+      role:         President
+      years:        2005-2006
+program_committee:
+    - name:         CIGPU
+      title:        Computational Intelligence on Consumer Games and Graphics Hardware
+      years:        2010, 2012
+    - name:         CCGRID
+      title:        International Symposium on Cluster, Cloud and Grid Computing
+      years:        2013
+    - name:         COMPJ
+      title:        The Computer Journal
+      years:        2013
+    - name:         BigData
+      title:        IEEE International Congress on Big Data
+      years:        2013

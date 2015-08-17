@@ -1,0 +1,272 @@
+- title:    "Obelisk: Summoning Minions on a HPC Cluster "
+  link:     http://www3.nd.edu/~pbui/static/pdf/obelisk-mics2015.pdf
+  authors:
+        - Grant Wuerker
+        - Peter Bui
+  venue:    MICS2015
+  date:     2015-04
+  tags:
+        - MICS
+        - web service
+        - HPC
+
+- title:    "WIDLE: A Web Based Linux Interface"
+  link:     http://www3.nd.edu/~pbui/static/pdf/widle-mics2015.pdf
+  authors:
+        - Lucas Novoa
+        - Charles Volzka
+        - Peter Bui
+  venue:    MICS2015
+  date:     2015-04
+  tags:
+        - MICS
+        - web service
+        - Linux
+  note: Awarded Second Place
+
+- title:    "Dark Nebula: Using the Cloud to Build a RESTful Web Service"
+  link:     http://www3.nd.edu/~pbui/static/pdf/darknebula-mics2014.pdf
+  authors:
+        - Robert Fisher
+        - John Fisher
+        - Peter Bui
+  venue:    MICS2014
+  date:     2014-04
+  tags:
+        - MICS
+        - cloud computing
+        - web service
+  note: Awarded Third Place
+
+- title:    "A Web Portal For An Animation Render Farm"
+  link:     http://www3.nd.edu/~pbui/static/pdf/dsabr-mics2014.pdf
+  authors:
+        - John Rankin
+        - Travis Boettcher
+        - Peter Bui
+  venue:    MICS2014
+  date:     2014-04
+  tags:
+        - MICS
+        - dsabr
+        - render farm
+        - web service
+        - WorkQueue
+  note:
+
+- title:    "Using Clusters in Undergraduate Research: Distributed Animation Rendering, Photo Processing, and Image Transcoding"
+  link:     http://www3.nd.edu/~pbui/static/pdf/dcur-cluster2013.pdf
+  authors:
+        - Peter Bui
+        - Travis Boettcher
+        - Nicholas Jaeger
+        - Jeffrey Westphal
+  venue:    CLUSTER2013
+  date:     2013-09
+  tags:
+        - CLUSTER
+        - dsabr
+        - undergraduate research
+        - hpc
+        - cluster
+        - dp3
+        - WorkQueue
+  note: Awarded Best Paper in Education, Outreach, and Training track.
+
+- title:    "To the Cloud and Back: A Distributed Photo Pipeline"
+  link:     http://dpl.www3.nd.edu/static/pdf/dp3-mics2013.pdf
+  authors:
+        - Nicholas Jaeger
+        - Peter Bui
+  venue:    MICS2013
+  date:     2013-04
+  tags:
+        - MICS
+        - dp3
+        - web service
+        - WorkQueue
+  note:     Awarded Third Place
+
+- title:    "Scalable Distributed Image Transcoding using Python-WorkQueue"
+  link:     http://dpl.www3.nd.edu/static/pdf/dp3-mics2013.pdf
+  authors:
+        - Jeffrey Westphal
+        - Peter Bui
+  venue:    MICS2013
+  date:     2013-04
+  tags:
+        - MICS
+        - transcoding
+        - WorkQueue
+  note:
+
+- title:    "Makeflow: A Portable Abstraction for Data Intensive Computing on Clusters, Clouds, and Grids"
+  link:     http://ccl.cse.nd.edu/research/papers/makeflow-sweet12-camera.pdf
+  authors:
+        - Michael Albrecht
+        - Patrick Donnelly
+        - Peter Bui
+        - Douglas Thain
+  venue:    SPE
+  date:     2012-11
+  tags:
+        - SPE
+        - Makeflow
+        - CCL
+  note:
+
+- title:    "Adapting Bioinformatics Applications for Heterogeneous Systems: A Case Study"
+  link:     http://onlinelibrary.wiley.com/doi/10.1002/cpe.2927/abstract
+  authors:
+        - Irena Lanc
+        - Peter Bui
+        - Douglas Thain
+        - Scott Emrich
+  venue:    CCPE
+  date:     2012-09
+  tags:
+        - CCPE
+        - Weaver
+        - CCL
+  note:
+
+- title:    'ROARS: A Robust Object Archival System for Data Intensive Scientific Computing'
+  link:     http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10619-012-7103-5
+  authors:
+        - Hoang Bui
+        - Peter Bui
+        - Patrick Flynn
+        - Douglas Thain
+  venue:    DPD
+  date:     2012-08
+
+- title:    'A Compiler Toolchain for Data Intensive Scientific Workflows'
+  link:     http://ccl.cse.nd.edu/research/papers/pbui-dissertation.pdf
+  type:     Ph.D. Dissertation
+  authors:
+        - Peter Bui
+  venue:    UND
+  date:     2012-06
+
+- title:    'Makeflow: A Portable Abstraction for Data Intensive Computing on Clusters, Clouds, and Grids'
+  link:     http://ccl.cse.nd.edu/research/papers/makeflow-sweet12-camera.pdf
+  authors:
+        - Michael Albrecht
+        - Patrick Donnelly
+        - Peter Bui
+        - Douglas Thain
+  venue:    SWEET2012
+  date:     2012-05
+
+- title:    'Data Intensive Computing with Clustered Chirp Servers'
+  link:     http://www.igi-global.com/chapter/data-intensive-computing-clustered-chirp/62825
+  authors:
+        - Douglas Thain
+        - Michael Albrecht
+        - Hoang Bui
+        - Peter Bui
+        - Rory Carmichael
+        - Scott Emrich
+        - Patrick Flynn
+  venue:    IGIGLOBAL
+  date:     2012-05
+
+- title:    'Work Queue + Python: A Framework For Scalable Scientific Ensemble Applications'
+  link:     http://ccl.cse.nd.edu/research/papers/wq-python-pyhpc2011.pdf
+  authors:
+        - Peter Bui
+        - Dinesh Rajan
+        - Badi Abdul-Wahid
+        - Jesus Izaguirre
+        - Douglas Thain
+  venue:    PYHPC2011
+  date:     2011-11
+
+- title:    'Scripting distributed scientific workflows using Weaver'
+  link:     http://onlinelibrary.wiley.com/doi/10.1002/cpe.1871/abstract
+  authors:
+        - Peter Bui
+        - Li Yu
+        - Andrew Thrasher
+        - Rory Carmichael
+        - Irena Lanc
+        - Patrick Donnelly
+        - Douglas Thain
+  venue:    CCPE
+  date:     2011-11
+
+- title:    'Adapting Bioinformatics Applications for Heterogeneous Systems: A Case Study'
+  link:     http://ccl.cse.nd.edu/research/papers/adapting-ecmls11.pdf
+  authors:
+        - Irena Lanc
+        - Peter Bui
+        - Douglas Thain
+        - Scott Emrich
+  venue:    ECMLS2011
+  date:     2011-06
+
+- title:    'Makeflow: A Portable Abstraction for Cluster, Cloud, and Grid Computing.'
+  link:     http://cse.nd.edu/Reports/2011/TR-2011-02.pdf
+  type:     Technical Report
+  authors:
+        - Michael Albrecht
+        - Patrick Donnelly
+        - Peter Bui
+        - Douglas Thain
+  venue:    UND
+  date:     2011-02
+
+- title:    'Attaching Cloud Storage to a Campus Grid Using Parrot, Chirp, and Hadoop'
+  link:     http://ccl.cse.nd.edu/research/papers/chirp+parrot+hdfs.pdf
+  authors:
+        - Patrick Donnelly
+        - Peter Bui
+        - Douglas Thain
+  venue:    CLOUDCOM2010
+  date:     2010-11
+
+- title:    'Taming Complex Bioinformatics Workflows with Weaver, Makeflow, and Starch'
+  link:     http://ccl.cse.nd.edu/research/papers/taming-works10.pdf
+  authors:
+        - Andrew Thrasher
+        - Rory Carmichael
+        - Peter Bui
+        - Li Yu
+        - Douglas Thain
+        - Scott Emrich
+  venue:    WORKS2010
+  date:     2010-11
+
+- title:    'ROARS: A Scalable Repository for Data Intensive Scientific Computing'
+  link:     http://ccl.cse.nd.edu/research/pubs/roars-didc.pdf
+  authors:
+        - Hoang Bui
+        - Peter Bui
+        - Patrick Flynn
+        - Douglas Thain
+  venue:    DIDC2010
+  date:     2010-06
+
+- title:    'Weaver: Integrating Distributed Computing Abstractions into Scientific Workflows using Python'
+  link:     http://ccl.cse.nd.edu/research/pubs/weaver-clade2010.pdf
+  authors:
+        - Peter Bui
+        - Li Yu
+        - Douglas Thain
+  venue:    CLADE2010
+  date:     2010-06
+
+- title:    "AIR: Accelerated Image Registration"
+  type:     "Master's Thesis"
+  authors:
+        - Peter Bui
+  venue:    UND
+  date:     2009-11
+
+- title:    'Performance Analysis of Accelerated Image Registration using GPGPU'
+  link:     http://www3.nd.edu/~pbui/static/pdf/performance-gpgpu2.pdf
+  authors:
+        - Peter Bui
+        - Jay Brockman
+  venue:    GPGPU2
+  date:     2009-03

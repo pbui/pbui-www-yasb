@@ -1,0 +1,112 @@
+title:      About
+icon:       fa-user
+navigation:
+    - name: "Home"
+      link: "index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "research/"
+      icon: "fa-pencil"
+    - name: "Calendar"
+      link: "calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "about.html"
+      icon: "fa-user"
+internal:
+external:
+body:       |
+
+    <div class="row" markdown="1">
+
+    <span markdown="1">
+      <img src="{{ page.prefix }}static/img/pbui_and_children_uwec_office.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
+    </span>
+
+    Hello! As noted on the front page, my name is **Peter Bui** and I am
+    currently an assistant teaching professor (aka [SPF]) in the [Computer
+    Science and Engineering] department at the [University of Notre Dame]. I am
+    originally from Orange, CA and went to [La Purisima] elementary and middle
+    school and [Mater Dei] high school.  For college, I attended the
+    [University of Notre Dame] and majored in [Computer Science and
+    Engineering] there. I liked the program so much, I stayed for graduate
+    school and worked in the [Cooperative Computing Lab] under [Douglas Thain].
+    Eventually, I received my Master's and Ph.D. from Notre Dame, making me a
+    rare **triple domer**! During my time in graduate school, I married my high
+    school sweetheart, **Jennifer Rising**, and we had a beautiful baby boy
+    named **Caleb**.  Upon graduating, I went to work at the [Computer Science]
+    department at the [University of Wisconsin - Eau Claire].  During my first
+    year at UWEC, our family grew even larger with the addition of twins girls
+    **Abigail** and **Madeline**!  After three great years at UWEC, my family
+    and I have returned to Notre Dame.
+
+    [Computer Science and Enginerring]:     http://cse.nd.edu
+    [SPF]:                                  https://spf.nd.edu
+    [University of Notre Dame]:             http://www.nd.edu
+    [Computer Science]:                     http://cs.uwec.edu
+    [University of Wisconsin - Eau Claire]: http://www.uwec.edu
+    [La Purisima]:                          http://www.lapurisima.net
+    [Mater Dei]:                            http://www.materdei.org
+    [University of Notre Dame]:             http://www.nd.edu
+    [Computer Science and Engineering]:     http://cse.nd.edu
+    [Cooperative Computing Lab]:            http://ccl.cse.nd.edu
+    [Douglas Thain]:                        http://www.nd.edu/~dthain
+
+    </div>
+    
+    <div class="row" markdown="1">
+
+    ### Interests
+    
+    #### Linux
+
+    I use [Linux](http://kernel.org) extensively in my teaching, in my
+    research, and at home for personal use.
+
+    - [Alpine Linux](http://www.alpinelinux.org): My current server
+      distribution. I contribute and maintain a few packages.
+
+    - [Arch Linux](http://www.archlinux.org): My current laptop/desktop
+      distribution. I've contributed some documentation and packages, but am
+      not very active in the community.
+    
+    - [i3wm](http://i3wm.org): My current window manager. I've contributed a few
+      patches, but am not active anymore.
+
+    #### Sports
+
+    Though far from athletic, I do enjoy playing and watching football,
+    basketball, and soccer.
+
+    - [Notre Dame Athletics](http://und.com): Every year is a return to glory...
+
+    - [Los Angeles Lakers](http://www.nba.com/lakers/): Grew up with Show Time.
+
+    - Biking: I try to bike to work every day (as long as it is above freezing
+      that is).
+
+    #### Science Fiction
+
+    When I find time to read, my favorite authors are:
+        [Scalzi](http://en.wikipedia.org/wiki/John_Scalzi),
+        [Heinlein](http://en.wikipedia.org/wiki/Robert_A._Heinlein),
+        [Gaiman](http://en.wikipedia.org/wiki/Neil_gaiman),
+        [Stephenson](http://en.wikipedia.org/wiki/Neal_Stephenson),
+        [Haldeman](http://en.wikipedia.org/wiki/Joe_Haldeman), and
+        [Dick](http://en.wikipedia.org/wiki/Philip_K._Dick).
+
+    ### Hobbies
+
+    - Chasing the kids around the house and dancing with them.
+
+    - Watching movies and TV shows with Jenny.
+
+    - Trolling my friends [Patrick Donnelly](http://www.nd.edu/~pdonnel3/) and [Hoang Bui](http://hoangbui.com/).
+
+    - Trolling my students in `#uwec-cs` and `#nd-cse` on
+      [Freenode](http://www.freenode.net/).
+    
+    </div>

@@ -1,0 +1,62 @@
+title:      Presentations
+prefix:     ../
+icon:       fa-print
+navigation:
+    - name: "Home"
+      link: "../index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "../teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "../research/"
+      icon: "fa-pencil"
+    - name: "Calendar"
+      link: "../calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "../about.html"
+      icon: "fa-user"
+internal:
+    author:         "Peter Bui"
+external:
+    presentations:  "static/yaml/presentations.yaml"
+    venues:         "static/yaml/venues.yaml"
+body:       |
+
+    <table style="width: 100%;">
+        {% set date_year    = lambda p: dateutil.parser.parse(p['date']).year %}
+        {% set presentations = sorted(page.external['presentations'], key=date_year, reverse=True) %}
+        {% for year, group in itertools.groupby(presentations, key=date_year) %}
+        <tr>
+            <td style="vertical-align: top; width: 100px;"><h5>{{ year }}</h5></td>
+            <td style="padding: 10px;">
+                <ul class="list-unstyled list-spaced">
+                {% for presentation in group %}
+                    {% set presentation_link    = presentation.get('link', '') or '' %}
+                    {% set presentation_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in presentation['authors']] %}
+                    {% if len(presentation_authors) > 1 %}
+                        {% set presentation_authors = presentation_authors[:-1] + ['and ' + presentation_authors[-1]] %}
+                    {% end %}
+                    {% set presentation_venue   = page.external['venues'][presentation['venue']] %}
+                    <li>
+                        {% raw ', '.join(presentation_authors) if len(presentation_authors) >= 3 else ' '.join(presentation_authors) %}.
+                        <a href="{{ presentation_link }}">{{ presentation['title'] }}</a>.
+                        {% if presentation.get('type', None) %}
+                        <em>{{ presentation['type'] }}</em>.
+                        {% end %}
+                        {{ presentation_venue['title'] }} (<a href="{{ presentation_venue['link'] }}">{{ presentation['venue'] }}</a>).
+                        {% if presentation_venue['location'] %}
+                        {{ presentation_venue['location'] }}.
+                        {% end %}
+                        {{ dateutil.parser.parse(presentation['date']).strftime('%B, %Y') }}.
+                        {% if presentation.get('note', None) %}
+                        <strong>{{ presentation['note'] }}</strong>.
+                        {% end %}
+                    </li>
+                {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>

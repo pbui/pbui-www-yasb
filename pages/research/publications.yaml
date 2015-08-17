@@ -1,0 +1,62 @@
+title:      Publications
+prefix:     ../
+icon:       fa-print
+navigation:
+    - name: "Home"
+      link: "../index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "../teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "../research/"
+      icon: "fa-pencil"
+    - name: "Calendar"
+      link: "../calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "../about.html"
+      icon: "fa-user"
+internal:
+    author:         "Peter Bui"
+external:
+    publications:   "static/yaml/publications.yaml"
+    venues:         "static/yaml/venues.yaml"
+body:       |
+
+    <table style="width: 100%;">
+        {% set date_year    = lambda p: dateutil.parser.parse(p['date']).year %}
+        {% set publications = sorted(page.external['publications'], key=date_year, reverse=True) %}
+        {% for year, group in itertools.groupby(publications, key=date_year) %}
+        <tr>
+            <td style="vertical-align: top; width: 100px;"><h5>{{ year }}</h5></td>
+            <td style="padding: 10px;">
+                <ul class="list-unstyled list-spaced">
+                {% for publication in group %}
+                    {% set publication_link    = publication.get('link', '') or '' %}
+                    {% set publication_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in publication['authors']] %}
+                    {% if len(publication_authors) > 1 %}
+                        {% set publication_authors = publication_authors[:-1] + ['and ' + publication_authors[-1]] %}
+                    {% end %}
+                    {% set publication_venue   = page.external['venues'][publication['venue']] %}
+                    <li>
+                        {% raw ', '.join(publication_authors) if len(publication_authors) >= 3 else ' '.join(publication_authors) %}.
+                        <a href="{{ publication_link }}">{{ publication['title'] }}</a>.
+                        {% if publication.get('type', None) %}
+                        <em>{{ publication['type'] }}</em>.
+                        {% end %}
+                        {{ publication_venue['title'] }} (<a href="{{ publication_venue['link'] }}">{{ publication['venue'] }}</a>).
+                        {% if publication_venue['location'] %}
+                        {{ publication_venue['location'] }}.
+                        {% end %}
+                        {{ dateutil.parser.parse(publication['date']).strftime('%B, %Y') }}.
+                        {% if publication.get('note', None) %}
+                        <strong>{{ publication['note'] }}</strong>.
+                        {% end %}
+                    </li>
+                {% end %}
+                </ul>
+            </td>
+        </tr>
+        {% end %}
+    </table>

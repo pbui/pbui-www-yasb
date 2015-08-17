@@ -1,0 +1,132 @@
+title:      Peter Bui
+icon:       fa-home
+navigation:
+    - name: "Home"
+      link: "index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "research/"
+      icon: "fa-pencil"
+    - name: "Calendar"
+      link: "calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "about.html"
+      icon: "fa-user"
+internal:
+external:
+    courses:            "static/yaml/courses.yaml"
+    presentations:      "static/yaml/presentations.yaml"
+    publications:       "static/yaml/publications.yaml"
+    venues:             "static/yaml/venues.yaml"
+body:       |
+
+    <div class="jumbotron" markdown="1">
+
+    <span markdown="1">
+    <img src="{{ page.prefix }}static/img/pbui_and_mbui.jpg" class="img-rounded pull-left" style="margin-right: 10px;" />
+    </span>
+
+    Hello, my name is **Peter Bui** and I am an assistant teaching professor in
+    the [Computer Science and Engineering] department at the [University of
+    Notre Dame].  In addition to [teaching] Computer Science courses such as
+    Discrete Mathematics, Data Structures, and Ethics and Professional Issues,
+    I also teach the core Script-based programming sequence in the [Computing &
+    Digital Technologies] minor. Outside the classroom, I enjoy hacking on
+    [research] projects related to systems programming, operating systems,
+    parallel computing, cloud computing, distributed computing, programming
+    languages, compilers, and web services, and I would welcome the opportunity
+    to work with undergraduate students on such projects.
+
+    [Computer Science and Engineering]:         http://cse.nd.edu
+    [University of Notre Dame]:                 http://www.nd.edu
+    [teaching]:                                 teaching/
+    [research]:                                 research/
+    [Computing & Digital Technologies]:         http://cdt.nd.edu
+
+    </div>
+
+    <div class="row">
+
+    <div class="col-md-4">
+        <h3>Teaching</h3>
+
+        <h4>Current Courses</h4>
+        <ul>
+        {% set courses = filter(lambda c: c.get('active', False), page.external.get('courses', [])) %}
+        {% for course in courses %}
+            {% if course.get('link', None) %}
+            <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
+            {% else %}
+            <li>{{ course['title'] }}</li>
+            {% end %}
+        {% end %}
+        </ul>
+
+        <h4>Recent Courses</h4>
+        <ul>
+        {% set courses = filter(lambda c: not c.get('active', False), page.external.get('courses', [])) %}
+        {% for course in list(courses)[:4] %}
+            {% if course.get('link', None) %}
+            <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
+            {% else %}
+            <li>{{ course['title'] }}</li>
+            {% end %}
+        {% end %}
+        </ul>
+
+        <div class="btn-toolbar pull-right"><a class="btn btn-primary btn-sm" href="teaching/">More Teaching</a></div>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Research</h3>
+
+        {% for collection in ('publications', 'presentations') %}
+        <h4>Recent {{ collection.title() }}</h4>
+        <ul>
+        {% set items = sorted(page.external.get(collection, []), key=lambda i: i['date'], reverse=True) %}
+        {% for item in items[:3] %}
+            {% if item.get('link', None) %}
+            <li><a href="{{ item['link'] }}">{{ item['title'] }}</a></li>
+            {% else %}
+            <li>{{ item['title'] }}</li>
+            {% end %}
+        {% end %}
+        </ul>
+        {% end %}
+
+        <div class="btn-toolbar pull-right"><a class="btn btn-primary btn-sm" href="research/">More Research</a></div>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Contact</h3>
+        <div class="well clearfix">
+        <dl>
+            <dt><i class="fa fa-briefcase"></i> Address</dt>
+            <dd>
+            350 Fitzpatrick Hall<br>
+            University of Notre Dame<br>
+            Notre Dame, IN 46556
+            </dd>
+
+            <dt><i class="fa fa-phone"></i> Phone<dt/>
+            <dd>574 631 1467</dd>
+
+            <dt><i class="fa fa-envelope"></i> Email</dt>
+            <dd><a href="mailto:buipj@uwec.edu">pbui@nd.edu</a></dd>
+
+            <dt><i class="fa fa-comment"></i> IRC</dt>
+            <dd><code>pnutzh4x0r</code> on <a href="http://www.freenode.net/">Freenode</a> (<code>#nd-cse</code>)</dd>
+        </dl>
+        <div class="btn-toolbar pull-right">
+            <a class="btn btn-primary btn-sm" href="https://plus.google.com/116945319339267386456/"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-primary btn-sm" href="https://bitbucket.org/pbui/"><i class="fa fa-bitbucket"></i></a>
+            <a class="btn btn-primary btn-sm" href="https://github.com/pbui/"><i class="fa fa-github"></i></a>
+        </div>
+        </div>
+    </div>
+
+    </div>
