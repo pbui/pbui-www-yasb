@@ -16,6 +16,11 @@
   school:   University of Notre Dame
   active:   true
 
+- title:    CSE 20232 C/C++ Programming
+  role:     Substitute
+  school:   University of Notre Dame
+  semester: Summer 2015
+
 - title:    CS 170 Computing for the Sciences and Mathematics
   semester: Spring 2015
   link:     http://cs.uwec.edu/~buipj/teaching/cs.170.s15
