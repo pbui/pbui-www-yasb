@@ -1,6 +1,6 @@
 title:      Research
 prefix:     ../
-icon:       fa-lightbulb-o
+icon:       fa-flask
 navigation:
     - name: "Home"
       link: "../index.html"
@@ -10,7 +10,7 @@ navigation:
       icon: "fa-bell"
     - name: "Research"
       link: "../research/"
-      icon: "fa-pencil"
+      icon: "fa-flask"
     - name: "Calendar"
       link: "../calendar.html"
       icon: "fa-calendar"

@@ -10,7 +10,7 @@ navigation:
       icon: "fa-bell"
     - name: "Research"
       link: "../research/"
-      icon: "fa-pencil"
+      icon: "fa-flask"
     - name: "Calendar"
       link: "../calendar.html"
       icon: "fa-calendar"
