@@ -1,3 +1,14 @@
+- title:    "Blocks In, Blocks Out: A Language for 3D Models"
+  link:     ""
+  authors:
+        - Chris Johnson
+        - Peter Bui
+  venue:    BLOCKS2015
+  date:     2015-10
+  tags:
+        - programming language
+        - pedagogy
+
 - title:    "Obelisk: Summoning Minions on a HPC Cluster "
   link:     http://www3.nd.edu/~pbui/static/pdf/obelisk-mics2015.pdf
   authors:
