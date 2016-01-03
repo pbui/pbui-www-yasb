@@ -1,20 +1,35 @@
+- title:    CDT 30020 Script-based Programming II
+  semester: Spring 2016
+  link:     http://www3.nd.edu/~pbui/teaching/cdt.30020.sp16
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 20189 Basic Unix for Engineers
+  semester: Spring 2016
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20189.sp16
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40175 Ethical and Professional Issues
+  semester: Spring 2016
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp16
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CDT 30010 Script-based Programming I
   semester: Fall 2015
   link:     http://www3.nd.edu/~pbui/teaching/cdt.30010.fa15
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20110 Discrete Mathematics
   semester: Fall 2015
   link:     https://www3.nd.edu/courses/cse/cse20110.01/www/
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30331 Data Structures
   semester: Fall 2015
   link:     http://www3.nd.edu/~dchiang/teaching/ds/2015/
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20232 C/C++ Programming
   role:     Substitute
