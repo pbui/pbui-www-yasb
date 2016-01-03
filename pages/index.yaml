@@ -119,9 +119,10 @@ body:       |
             <dd><a href="mailto:buipj@uwec.edu">pbui@nd.edu</a></dd>
 
             <dt><i class="fa fa-comment"></i> IRC</dt>
-            <dd><code>pnutzh4x0r</code> on <a href="http://www.freenode.net/">Freenode</a> (<code>#nd-cse</code>)</dd>
+            <dd><code>pnutzh4x0r</code> on <a href="http://www.freenode.net/">Freenode</a></dd>
         </dl>
         <div class="btn-toolbar pull-right">
+            <a class="btn btn-primary btn-sm" href="https://nd-cse.slack.com/"><i class="fa fa-slack"></i></a>
             <a class="btn btn-primary btn-sm" href="https://plus.google.com/116945319339267386456/"><i class="fa fa-google-plus"></i></a>
             <a class="btn btn-primary btn-sm" href="https://bitbucket.org/pbui/"><i class="fa fa-bitbucket"></i></a>
             <a class="btn btn-primary btn-sm" href="https://github.com/pbui/"><i class="fa fa-github"></i></a>
