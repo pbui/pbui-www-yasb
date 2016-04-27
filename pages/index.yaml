@@ -33,13 +33,14 @@ body:       |
     Hello, my name is **Peter Bui** and I am an assistant teaching professor in
     the [Computer Science and Engineering] department at the [University of
     Notre Dame].  In addition to [teaching] Computer Science courses such as
-    Discrete Mathematics, Data Structures, and Ethics and Professional Issues,
-    I also teach the core Script-based programming sequence in the [Computing &
-    Digital Technologies] minor. Outside the classroom, I enjoy hacking on
-    [research] projects related to systems programming, operating systems,
-    parallel computing, cloud computing, distributed computing, programming
-    languages, compilers, and web services, and I would welcome the opportunity
-    to work with undergraduate students on such projects.
+    Data Structures, Basic Unix for Engineers, and Ethics and Professional
+    Issues, I also teach the core Elements of Computing programming sequence in
+    the [Computing & Digital Technologies] minor. Outside the classroom, I
+    enjoy hacking on [research] projects related to systems programming,
+    operating systems, parallel computing, cloud computing, distributed
+    computing, programming languages, compilers, and web services, and I would
+    welcome the opportunity to work with undergraduate students on such
+    projects.
 
     [Computer Science and Engineering]:         http://cse.nd.edu
     [University of Notre Dame]:                 http://www.nd.edu
@@ -116,7 +117,7 @@ body:       |
             <dd>574 631 1467</dd>
 
             <dt><i class="fa fa-envelope"></i> Email</dt>
-            <dd><a href="mailto:buipj@uwec.edu">pbui@nd.edu</a></dd>
+            <dd><a href="mailto:pbui@nd.edu">pbui@nd.edu</a></dd>
 
             <dt><i class="fa fa-comment"></i> IRC</dt>
             <dd><code>pbui</code> on <a href="http://www.freenode.net/">Freenode</a></dd>
