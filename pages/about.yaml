@@ -56,23 +56,27 @@ body:       |
     [Douglas Thain]:                        http://www.nd.edu/~dthain
 
     </div>
-    
+
     <div class="row" markdown="1">
 
     ### Interests
-    
+
     #### Linux
 
     I use [Linux](http://kernel.org) extensively in my teaching, in my
     research, and at home for personal use.
 
-    - [Alpine Linux](http://www.alpinelinux.org): My current server
-      distribution. I contribute and maintain a few packages.
+    - [Void Linux](http://www.voidlinux.eu/): My current distribution. I
+      contribute and maintain a few packages.
 
-    - [Arch Linux](http://www.archlinux.org): My current laptop/desktop
-      distribution. I've contributed some documentation and packages, but am
-      not very active in the community.
-    
+    - [Alpine Linux](http://www.alpinelinux.org): My former server
+      distribution. I have contributed and maintained a few packages, but am
+      not active anymore.
+
+    - [Arch Linux](http://www.archlinux.org): My former laptop/desktop
+      distribution. I have contributed some documentation and packages, but am
+      not active anymore.
+
     - [i3wm](http://i3wm.org): My current window manager. I've contributed a few
       patches, but am not active anymore.
 
@@ -103,7 +107,8 @@ body:       |
 
     - Trolling my friends [Patrick Donnelly](http://www.nd.edu/~pdonnel3/) and [Hoang Bui](http://hoangbui.com/).
 
-    - Trolling my students in `#uwec-cs` and `#nd-cse` on
-      [Freenode](http://www.freenode.net/).
-    
+    - Trolling my former students in `#uwec-cs` on
+      [Freenode](http://www.freenode.net/) and my current students in [ND CSE
+      Slack](https://nd-cse.slack.com).
+
     </div>
