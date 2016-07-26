@@ -1,0 +1,97 @@
+title:      Reading Group
+prefix:     ../
+icon:       fa-book
+navigation:
+    - name: "Home"
+      link: "../index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "../teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "../research/"
+      icon: "fa-flask"
+    - name: "Calendar"
+      link: "../calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "../about.html"
+      icon: "fa-user"
+internal:
+external:
+body:       |
+
+    <div class="row" markdown="1">
+
+    ### Computer Science Literature and Film
+
+    This class would involve reading books related to Computer Science,
+    blogging about them, and then discussing them.  Here are some possible books:
+
+    ### Science Fiction
+
+    - [Do Androids Dream of Electric Sheep](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F)
+
+    - [Ready Player One](http://readyplayerone.com/)
+
+    - [Cryptonomicon](https://en.wikipedia.org/wiki/Cryptonomicon)
+
+    - [Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash)
+
+    ### Computing
+
+    - [Code](http://www.charlespetzold.com/code/)
+    
+    - [The Elements of Computing Systems](http://www.nand2tetris.org/)
+
+    - [D is for Digital](http://kernighan.com/)
+
+    ### Coding
+
+    - [Coders at Work](http://www.codersatwork.com/)
+
+    - [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+    
+    - [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
+
+    - [Hacker's Delight](http://www.hackersdelight.org/)
+
+    ### History
+
+    - [Hackers - Heroes of the Computer Revolution](http://www.stevenlevy.com/index.php/books/hackers)
+
+    - [Tools for Thought](http://www.rheingold.com/texts/tft/)
+
+    - [The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution](https://en.wikipedia.org/wiki/The_Innovators:_How_a_Group_of_Inventors,_Hackers,_Geniuses,_and_Geeks_Created_the_Digital_Revolution)
+
+    ### Children's Literature
+
+    - [Lauren Ipsum](http://www.laurenipsum.org/)
+
+    - [Computational Fairy Tales](http://computationaltales.blogspot.com/p/book.html)
+
+    - [Best Practices of Spell Design](http://computationaltales.blogspot.com/p/book.html#BestPractices)
+
+    ### Ethos
+
+    - [Unlocking the Clubhouse](https://mitpress.mit.edu/books/unlocking-clubhouse)
+
+    - [Hackers & Painters](http://www.paulgraham.com/hackpaint.html)
+
+    - [The Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/)
+
+    - [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/)
+
+    ### Miscellaneous
+
+    - [Godel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+
+    - [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+
+    <div class="alert alert-info">
+    <h4><i class="fa fa-film"></i> Movies Too!</h4>
+
+    We may also watch movies together.  For (Computer) Science (and stuff).
+    </div>
+
+    </div>
