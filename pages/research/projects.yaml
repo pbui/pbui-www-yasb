@@ -1,0 +1,252 @@
+title:      Projects
+prefix:     ../
+icon:       fa-lightbulb-o
+navigation:
+    - name: "Home"
+      link: "../index.html"
+      icon: "fa-home"
+    - name: "Teaching"
+      link: "../teaching/"
+      icon: "fa-bell"
+    - name: "Research"
+      link: "../research/"
+      icon: "fa-flask"
+    - name: "Calendar"
+      link: "../calendar.html"
+      icon: "fa-calendar"
+    - name: "About"
+      link: "../about.html"
+      icon: "fa-user"
+internal:
+    author:         "Peter Bui"
+external:
+body:       |
+
+    <div class="row" markdown="1">
+
+    Here is a list of possible **undergraduate** research projects I am
+    interested in supervising:
+
+    ### Bobbit
+
+    [Bobbit] is a simple [IRC] bot that has been running in production since
+    `2012`.  What started off as an afternoon hack has grown into an invaluable
+    tool.  Unfortunately, [Bobbit] has outgrown its clumsy origins and needs to
+    be re-written for clarity, maintainability, and extensibility.
+
+    - Re-write using [Tornado] and document codebase.
+
+    - Create RESTful APIs.
+
+    - Create web dashboard and management console.
+
+    - Provide end-user documentation.
+
+    - Add some rudimentary [NLP] and [machine learning] features.
+
+    [Bobbit]:   https://bitbucket.org/pbui/bobbit/src
+    [IRC]:      https://en.wikipedia.org/wiki/Internet_Relay_Chat
+    [Tornado]:  http://www.tornadoweb.org/en/stable/
+    [NLP]:      https://en.wikipedia.org/wiki/Natural_language_processing
+    [Machine Learning]: https://en.wikipedia.org/wiki/Machine_learning
+
+    ### WIDLE
+
+    [WIDLE] is a web-based integrated development and learning environment.  It
+    is meant to be a user-friendly interface to remote Unix systems.  You can read
+    about it in the publication: [WIDLE: A Web Based Linux Interface].
+
+    - Cleanup and refactor codebase.
+
+    - Create [Docker] image.
+
+    - Create portable (Linux) version.
+
+    - Update user interface.
+
+    - Add command-based interface / keybindings.
+
+    - Add terminal.
+
+    [WIDLE]:    https://bitbucket.org/pbui/widle
+    [WIDLE: A Web Based Linux Interface]: http://www3.nd.edu/~pbui/static/pdf/widle-mics2015.pdf
+    [Docker]:   https://www.docker.com/
+
+    ### Notifyd
+
+    [Notifyd] is a simple notification system built on [Tornado] and [Python].
+    The goal is to aggregate notifications from multiple systems and broadcast
+    them to different endpoints.
+
+    - Implement SSL (using [Let's Encrypt]?).
+
+    - Implement simple pub/sub mechanism.
+
+    - Create Android application.
+
+    [Notifyd]: https://bitbucket.org/pbui/notifyd
+    [Let's Encrypt]: https://letsencrypt.org/
+
+    ### Yld.Me
+
+    [Yld.Me] is a simple URL shortening and pastebin service written in
+    [Tornado] and [Python].
+
+    - Add a web-based submission form.
+
+    - Create web dashboard for enabling private password protected links,
+      removing items, setting automatic expiration times, and viewing activity
+      metrics.
+
+    [Yld.Me]: http://yld.me/
+
+    ### Idlebin
+
+    The goal of this project is to re-implement the core [POSIX] command line
+    utilities in [Go].
+
+    - Implement most coreutils.
+
+    - Implement test suite to verify functionality.
+
+    - Implement some Linux specific commands.
+
+    - Create small Linux distribution based on Idlebin.
+
+    [POSIX]: http://pubs.opengroup.org/onlinepubs/9699919799/
+    [Go]:    https://tip.golang.org/
+
+    ### Coding for Humanities
+
+    The goal of this project is create a few demonstrations of utilizing
+    Computer Science to explain or explore ideas and concepts from the Humanities.
+
+    ### Coding for K-12
+
+    The goal of this project is create a few lessons that can be used to teach
+    Computer Science concepts to K-12 students.
+
+    ### Cloudberry
+
+    The goal of this project is to build a [virtual machine] provisioning
+    systems similar to [Amazon EC2] or [Digital Ocean] on a cluster of
+    [Raspberry Pi] computers.
+
+    - Investigate using [Docker] or [LXC].
+
+    - Create web dashboard.
+
+    - Create [Python] web services to manage infrastructure.
+
+    [virtual machine]:  https://en.wikipedia.org/wiki/Virtual_machine
+    [Amazon EC2]:       https://aws.amazon.com/ec2/
+    [Digital Ocean]:    https://www.digitalocean.com/
+    [LXC]:              https://linuxcontainers.org/
+    [Python]:           https://www.python.org/
+
+    ### Wonderwall
+
+    The goal of this project is to build a framework for creating custom
+    [display walls] using [Raspberry Pi] computers.
+
+    - Create web dashboard and management console.
+
+    - Create daemon that writes directly to framebuffer.
+
+    - Support web pages, audio, images, and video.
+
+    [display walls]:    https://en.wikipedia.org/wiki/Video_wall
+    [Raspberry Pi]:     https://www.raspberrypi.org/
+
+    ### Boxer
+
+    The goal of this project is to build a repository of software that can be
+    installed on systems where users do not have administrative rights.
+
+    - Provide a repository of installable software for users of [AFS].
+
+    - Take advantage of existing package system such as [pkgsrc] and allow for
+      multiple versions of key software such as [gcc] or [Python].
+
+    [pkgsrc]:   https://www.pkgsrc.org/
+    [AFS]:      https://en.wikipedia.org/wiki/Andrew_File_System
+
+    ### Canary
+
+    The goal of this project is to build an automated build system.
+
+    - Develop [continuous integration] system similar to [Travis CI] that runs
+      on [HTCondor].
+
+    - Provide [GitHub] and [Bitbucket] hooks, along with badges and a web
+      dashboard.
+
+    - Support multiple target environments (use [Docker]?).
+
+    [continuous integration]: https://en.wikipedia.org/wiki/Continuous_integration
+    [Travis CI]:    https://travis-ci.org/
+    [HTCondor]:     https://research.cs.wisc.edu/htcondor/
+    [gcc]:          https://gcc.gnu.org/
+    [GitHub]:       https://github.com/
+    [Bitbucket]:    https://bitbucket.org/
+
+    ### MarkIt
+
+    The goal of this project is to create a bookmarking web application that
+    allows for tagging and searching.
+
+    - Develop web-based bookmarking service.
+
+    - Develop Chrome and Firefox extensions.
+
+    - Develop Android application.
+
+    ### ReadIt
+
+    The goal of this project is to create a [RSS] feed reader similar to
+    [Google Reader].
+
+    - Develop web-based [Google Reader] replacement.
+
+    - Develop Android application.
+
+    [RSS]:  https://en.wikipedia.org/wiki/RSS
+    [Google Reader]:    https://en.wikipedia.org/wiki/Google_Reader
+
+    ### PlayIt
+
+    The goal of this project is to create a web application that streams music
+    from a local database.
+
+    - Develop web-based Google Music replacement.
+
+    - Develop Android application.
+
+    - Integrate [MusicBrainz] or some other music meta-data service.
+
+    - Support streaming from YouTube.
+
+    [MusicBrainz]: https://musicbrainz.org/
+
+    ### HotStash
+
+    The goal of this project is to create a [FUSE] filesystem that serves as a
+    cache for other network filesystems.
+
+    - Develop prototype [FUSE] filesystem.
+
+    - Investigate different caching algorithms and policies.
+
+    ### DeloreanFS
+
+    The goal of this project is to create a [FUSE] filesystem that allows for
+    access to snapshots of particular files in the filesystem (ie.
+    time-travelling).
+
+    - Develop prototype [FUSE] filesystem.
+
+    - Investigate different storage algorithms.
+
+    [FUSE]: https://github.com/libfuse/libfuse
+
+    </div>
