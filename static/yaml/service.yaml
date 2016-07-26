@@ -94,7 +94,7 @@ undergraduates:
 
 advising:
     - name:         Computer Science Advisor
-      year:         2012 - Present
+      year:         2012 - 2015
 
     - name:         Transfer transcript analysis
       year:         Winter 2012
@@ -103,9 +103,13 @@ advising:
       year:         Winter 2012
 
 organizations:
+    - name:         University of Notre Dame Linux Users Group
+      role:         Faculty Advisor
+      year:         2015 - Present
+
     - name:         University of Wisconsin - Eau Claire Student ACM
       role:         Faculty Advisor
-      year:         2013 - Present
+      year:         2013 - 2015
 
     - name:         University of Wisconsin - Eau Claire Linux Users Group
       role:         Faculty Advisor
