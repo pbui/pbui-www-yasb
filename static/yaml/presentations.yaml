@@ -1,3 +1,17 @@
+- title:    "Mixing Code and 3D Printers with Madeup"
+  link:     http://dl.acm.org/citation.cfm?id=2844682
+  type:     Workshop
+  authors:
+        - Chris Johnson
+        - Heather Amthauer
+        - Ryan Hardt
+        - Peter Bui
+  venue:    SIGCSE2016
+  date:     2016-03
+  tags:
+        - Madeup
+        - Education
+
 - title:    "WIDLE: A Web Based Linux Interface"
   link:
   type:     Poster
