@@ -1,20 +1,35 @@
+- title:    CSE 20289 Systems Programming
+  semester: Spring 2017
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp17
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40175 Ethical and Professional Issues
+  semester: Spring 2017
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp17
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40842 Hackers in the Bazaar
+  semester: Spring 2017
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp17
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CDT 30010 Elements of Computing I
   semester: Fall 2016
   link:     http://www3.nd.edu/~pbui/teaching/cdt.30010.fa16
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30331 Data Structures
   semester: Fall 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.30331.fa16
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa16
   school:   University of Notre Dame
-  active:   true
 
 - title:    CDT 30020 Script-based Programming II
   semester: Spring 2016
