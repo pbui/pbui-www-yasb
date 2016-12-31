@@ -69,7 +69,7 @@ body:       |
         <h4>Recent Courses</h4>
         <ul>
         {% set courses = filter(lambda c: not c.get('active', False), page.external.get('courses', [])) %}
-        {% for course in list(courses)[:4] %}
+        {% for course in list(courses)[:3] %}
             {% if course.get('link', None) %}
             <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a></li>
             {% else %}
