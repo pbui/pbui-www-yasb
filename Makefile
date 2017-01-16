@@ -2,7 +2,7 @@ TARGET= 	/net/smb/pbui@fs.nd.edu/www
 COMMON= 	$(shell ls static/yaml/*.yaml) 	\
 		  scripts/yasb.py 			\
 		  templates/base.tmpl
-RSYNC_FLAGS= 	-rv --size-only --copy-links --progress --exclude="cs.*.*" --exclude="idis.*.*" --exclude="*.swp" --exclude="*.yaml"
+RSYNC_FLAGS= 	-rv --copy-links --progress --exclude="cs.*.*" --exclude="idis.*.*" --exclude="*.swp" --exclude="*.yaml"
 YAML=		$(shell ls pages/*.yaml pages/*/*.yaml)
 HTML= 		${YAML:.yaml=.html}
 
