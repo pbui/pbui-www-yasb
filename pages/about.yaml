@@ -89,15 +89,90 @@ body:       |
 
     - [Los Angeles Lakers](http://www.nba.com/lakers/): Grew up with Show Time.
 
-    #### Science Fiction
+    #### Books
 
-    When I find time to read, my favorite authors are:
-        [Scalzi](http://en.wikipedia.org/wiki/John_Scalzi),
-        [Heinlein](http://en.wikipedia.org/wiki/Robert_A._Heinlein),
-        [Gaiman](http://en.wikipedia.org/wiki/Neil_gaiman),
-        [Stephenson](http://en.wikipedia.org/wiki/Neal_Stephenson),
-        [Haldeman](http://en.wikipedia.org/wiki/Joe_Haldeman), and
-        [Dick](http://en.wikipedia.org/wiki/Philip_K._Dick).
+    When I find time to read, my favorite authors and books are:
+
+    <table class="table table-bordered" markdown="1">
+    <thead>
+    <th>Genre</th>
+    <th>Author</th>
+    <th>Books</th>
+    </thead>
+    <tbody>
+    <tr>
+    <td class="text-strong" rowspan="7">Science Fiction</td>
+    <td>[John Scalzi](http://en.wikipedia.org/wiki/John_Scalzi)</td>
+    <td>
+    [Old Man's War Series](https://en.wikipedia.org/wiki/Old_Man%27s_War_series)
+    </td>
+    </tr>
+    <tr>
+    <td>[Robert Heinlein](http://en.wikipedia.org/wiki/Robert_A._Heinlein)</td>
+    <td>
+    [Starship Troopers](https://en.wikipedia.org/wiki/Starship_Troopers),
+    [Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land),
+    [The Moon is a Harsh Mistress)](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress)
+    </td>
+    </tr>
+    <tr>
+    <td>[Neil Gaiman](http://en.wikipedia.org/wiki/Neil_gaiman)</td>
+    <td>
+    [American Gods](https://en.wikipedia.org/wiki/American_Gods)
+    </td>
+    </tr>
+    <tr>
+    <td>[Neal Stephenson](http://en.wikipedia.org/wiki/Neal_Stephenson)</td>
+    <td>
+    [Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash),
+    [Anathem](https://en.wikipedia.org/wiki/Anathem)
+    </td>
+    </tr>
+    <tr>
+    <td>[Joe Haldeman](http://en.wikipedia.org/wiki/Joe_Haldeman)</td>
+    <td>
+    [The Forever War series](https://en.wikipedia.org/wiki/The_Forever_War_series)
+    </td>
+    </tr>
+    <tr>
+    <td>[Philip K. Dick](http://en.wikipedia.org/wiki/Philip_K._Dick)</td>
+    <td>
+    [The Man in the High Castle](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle),
+    [Do Androids Dream of Electric Sheep?](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F),
+    [A Scanner Darkly](https://en.wikipedia.org/wiki/A_scanner_darkly)
+    </td>
+    </tr>
+    <tr>
+    <td>[Edgar Burroughs](https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs)</td>
+    <td>
+    [John Carter of Mars Series](https://en.wikipedia.org/wiki/John_Carter_of_Mars_(collection))
+    </td>
+    </tr>
+    <tr>
+    <td class="text-strong" rowspan="2">Historical Fiction</td>
+    <td>[Bernard Cornwell](https://en.wikipedia.org/wiki/Bernard_Cornwell)</td>
+    <td>
+    [The Saxon Stories](https://en.wikipedia.org/wiki/The_Saxon_Stories),
+    [The Warlord Chronicles](https://en.wikipedia.org/wiki/The_Warlord_Chronicles),
+    [The Grail Quest](https://en.wikipedia.org/wiki/The_Grail_Quest)
+    </td>
+    </tr>
+    <tr>
+    <td>[Ken Follett](https://en.wikipedia.org/wiki/Ken_Follett)</td>
+    <td>
+    [Pillars of the Earth](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth)
+    [World without End](https://en.wikipedia.org/wiki/World_Without_End_(Follett_novel))
+    </td>
+    </tr>
+    <tr>
+    <td class="text-strong" rowspan="1">Fantasy</td>
+    <td>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson)</td>
+    <td>
+    [The Stormlight Archive](https://en.wikipedia.org/wiki/The_Stormlight_Archive)
+    </td>
+    </tr>
+    </body>
+    </table>
 
     ### Hobbies
 
