@@ -1,0 +1,2 @@
+- pattern: '*.yaml'
+  action:  'make install'
