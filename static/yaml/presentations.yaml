@@ -1,3 +1,15 @@
+- title:    "Teaching Distributed Computing with WorkQueue"
+  link:     http://dl.acm.org/citation.cfm?id=3017838
+  type:     Workshop
+  authors:
+        - Aaron Dingler
+        - Peter Bui
+  venue:    SIGCSE2017
+  date:     2017-03
+  tags:
+        - WorkQueue
+        - Education
+
 - title:    "Mixing Code and 3D Printers with Madeup"
   link:     http://dl.acm.org/citation.cfm?id=2844682
   type:     Workshop
