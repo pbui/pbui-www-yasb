@@ -55,9 +55,9 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     ### Experience
-    
+
     <table style="width: 100%;">
         {% for entry in page.external.get('experience', []) %}
         <tr>
@@ -67,9 +67,9 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     ### Teaching
-        
+
     {% for school, courses in itertools.groupby(page.external.get('courses', []), key=lambda c: c['school']) %}
     <h4>{{ school }}</h4>
 
@@ -97,7 +97,7 @@ body:       |
     {% end %}
 
     ### Research
-    
+
     #### Publications
 
     <table style="width: 100%;">
@@ -136,7 +136,7 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     #### Presentations
 
     <table style="width: 100%;">
@@ -177,7 +177,7 @@ body:       |
     </table>
 
     #### Grants
-    
+
     <table style="width: 100%;">
         {% set grants = sorted(page.external['grants'], key=lambda g: g['year'], reverse=True) %}
         {% for year, group in itertools.groupby(grants, key=lambda g: g['year']) %}
@@ -196,8 +196,20 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
-    ### Service 
+
+    ### Honors and Awards
+
+    <table style="width: 100%;">
+        {% for entry in page.external.get('awards', []) %}
+        <tr>
+            <td class="cv-cell cv-front"><h5 class="muted">{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['title'] }}</td>
+            <td class="cv-cell cv-back">{{ entry['organization'] }}</td>
+        </tr>
+        {% end %}
+    </table>
+
+    ### Service
 
     #### Undergraduate Research/Independent Study
 
@@ -210,7 +222,7 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     #### Advising
 
     <table style="width: 100%;">
@@ -221,7 +233,7 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     #### Organizations
 
     <table style="width: 100%;">
@@ -233,9 +245,9 @@ body:       |
         </tr>
         {% end %}
     </table>
-    
+
     #### Program Committee
-    
+
     <table style="width: 100%;">
         {% set pcs = sorted(page.external['service']['program_committee'], key=lambda g: g['year'], reverse=True) %}
         {% for year, group in itertools.groupby(pcs, key=lambda g: g['year']) %}
@@ -248,18 +260,6 @@ body:       |
                     {% end %}
                 </ul>
             </td>
-        </tr>
-        {% end %}
-    </table>
-    
-    ### Honors and Awards
-
-    <table style="width: 100%;">
-        {% for entry in page.external.get('awards', []) %}
-        <tr>
-            <td class="cv-cell cv-front"><h5 class="muted">{{ entry['year'] }}</h5></td>
-            <td class="cv-cell">{{ entry['title'] }}</td>
-            <td class="cv-cell cv-back">{{ entry['organization'] }}</td>
         </tr>
         {% end %}
     </table>
