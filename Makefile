@@ -15,6 +15,8 @@ install:	all
 	mkdir -p ${TARGET}/static
 	rsync ${RSYNC_FLAGS} pages/.		${TARGET}/.
 	rsync ${RSYNC_FLAGS} static/.      	${TARGET}/static/.
+	mkdir -p ${TARGET}/common
+	rsync ${RSYNC_FLAGS} static/common/.    ${TARGET}/common/.
 
 clean:
 	rm -f ${HTML}
