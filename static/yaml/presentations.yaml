@@ -24,6 +24,18 @@
         - Madeup
         - Education
 
+- title:    "Madeup: A Language for Making Things Up"
+  link:     http://dl.acm.org/citation.cfm?id=2691893
+  type:     Poster
+  authors:
+        - Chris Johnson
+        - Peter Bui
+  venue:    SIGCSE2015
+  date:     2015-03
+  tags:
+        - Madeup
+        - Education
+
 - title:    "WIDLE: A Web Based Linux Interface"
   link:
   type:     Poster

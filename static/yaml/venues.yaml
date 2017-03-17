@@ -8,6 +8,11 @@ SIGCSE2016:
     link:       http://sigcse2016.sigcse.org/
     location:   Memphis, TN
 
+SIGCSE2015:
+    title:      "Special Interest Group - Computer Science Education"
+    link:       http://sigcse2015.sigcse.org/
+    location:   Kansas City, Missouri
+
 BLOCKS2015:
     title:      "Blocks and Beyond"
     link:       http://cs.wellesley.edu/~blocks-and-beyond/schedule.html
@@ -22,11 +27,6 @@ MICS2015:
     title:      "Midwest Instruction and Computing Symposium"
     link:       http://www.micsymposium.org/mics2015/
     location:   Grand Forks, ND
-
-SIGCSE2015:
-    title:      "SIG Computer Science Education"
-    link:       http://sigcse2015.sigcse.org/
-    location:   Kansas City, Missouri
 
 CERCA2014:
     title:      "Celebration of Excellence in Research and Creative Activity"
