@@ -23,7 +23,7 @@ body:       |
     <div class="row" markdown="1">
 
     <span markdown="1">
-      <img src="{{ page.prefix }}static/img/pbui_and_children_uwec_office.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
+      <img src="{{ page.prefix }}static/img/family_2017.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
     </span>
 
     Hello! As noted on the front page, my name is **Peter Bui** and I am
