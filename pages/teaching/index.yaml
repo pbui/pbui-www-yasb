@@ -50,7 +50,13 @@ body:       |
         <h3>Previous Courses</h3>
         <ul>
         {% set courses = filter(lambda c: not c.get('active', False), page.external.get('courses', [])) %}
+        {% set semester = None %}
         {% for course in courses %}
+            {% if semester and semester != course['semester'] %}
+            <br>
+            {% end %}
+            {% set semester = course['semester'] %}
+
             {% if course.get('link', None) %}
             <li><a href="{{ course['link'] }}">{{ course['title'] }} ({{ course['semester'] }})</a> {% if 'role' in course %}[<i>{{ course['role'] }}</i>]{% end %}</li>
             {% else %}
