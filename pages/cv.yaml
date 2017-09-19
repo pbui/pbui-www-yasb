@@ -37,7 +37,7 @@ body:       |
     <div style="text-align: center;">
         <small>
             350 Fitzpatrick Hall, Notre Dame, IN 46556<br/>
-            <i class="fa fa-phone"></i> 715 631 1467&nbsp;&nbsp;
+            <i class="fa fa-phone"></i> 574 631 1467&nbsp;&nbsp;
             <i class="fa fa-envelope"></i> <a href="mailto:pbui@nd.edu">pbui@nd.edu</a>&nbsp;&nbsp;
             <i class="fa fa-globe"></i> <a href="http://www3.nd.edu/~pbui">www3.nd.edu/~pbui</a>
         </small>
@@ -230,6 +230,7 @@ body:       |
         <tr>
             <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
             <td class="cv-cell">{{ entry['name'] }}.</td>
+            <td class="cv-cell cv-back">{{ entry['school'] }}</td>
         </tr>
         {% end %}
     </table>

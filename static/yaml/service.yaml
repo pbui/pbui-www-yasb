@@ -95,12 +95,15 @@ undergraduates:
 advising:
     - name:         Computer Science Advisor
       year:         2012 - 2015
+      school:       University of Wisconsin - Eau Claire
 
     - name:         Transfer transcript analysis
       year:         Winter 2012
+      school:       University of Wisconsin - Eau Claire
 
     - name:         Winter Interim Advising Workshop
       year:         Winter 2012
+      school:       University of Wisconsin - Eau Claire
 
 organizations:
     - name:         University of Notre Dame Linux Users Group
