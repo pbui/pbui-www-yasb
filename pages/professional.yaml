@@ -1,0 +1,238 @@
+title:      Professional Statement
+icon:       ""
+navigation: []
+internal:
+    author:         "Peter Bui"
+external:   []
+body:       |
+
+    <style>
+    body {
+        margin: -15px;
+        font-size:  12pt;
+    }
+    </style>
+
+    My primary goal as a Computer Science teacher is to share my passion and
+    enthusiasm for computing with the next generation of programmers,
+    scientists, innovators, and entrepreneurs.  During the last two years, I
+    have been fortunate to teach, mentor, and advise students at the University
+    of Notre Dame as an assistant teaching professor (or special professional
+    faculty) in the department of Computer Science and Engineering.  Prior to
+    this position, I served as an assistant professor at the University of
+    Wisconsin - Eau Claire in the Computer Science department there.  The
+    following is my professional statement on these experiences and what it
+    means to be a good teacher at a premier Catholic university.
+
+    One of the most important aspects of teaching is preparation.  First, the
+    instructor must know the subject very well; it is very difficult to teach
+    with authority when students detect gaps in your knowledge. Often this
+    requires the teacher to review or learn new material, which was the case
+    when I first taught CSE 30331 Data Structures at the University of Notre
+    Dame.  Although I primarily specialized in distributed systems as a
+    graduate student, I approached this course as an opportunity to reinforce
+    my understanding of fundamental data structures and algorithms.  In
+    preparing for the class, I developed new projects that required not only
+    building data structures but also applying them to interesting problems and
+    measuring their performance.  Additionally, I also incorporated programming
+    challenges or programming interview questions into the class in order to
+    motivate the study of the course material.  From this experience, I learned
+    that teaching is not only an opportunity to share your knowledge, but to
+    grow and expand it as well.
+
+    To be well-prepared also means having your class materials in order. Few
+    things are more frustrating for students than having a class with missing
+    materials or buggy software. For this reason, I make a website that
+    contains the syllabus, schedule, lectures, and assignments for each course
+    I teach and embed this within Sakai for each course section.  This allows
+    the class to run smoothly as the students are able to find class
+    information in one central online location.  I also make sure that all
+    programming assignments or labs are tested and have solutions ready before
+    students are given them.  Doing the assignments myself allows me to
+    anticipate some of the questions students would have and allows me to
+    fine-tune the material.
+
+    Another critical component of successful teaching is to engage the
+    students. To me, this means avoiding giving lectures composed primarily of
+    presenting slides, which tends to dull students who end up tuning out.
+    When I teach CDT 30010 Elements of Computing I, a service course for Arts
+    and Letters majors, I generally use the chalkboard intermixed with
+    demonstrating code on a projector. Instead of having a deluge of
+    information, the students work with me to unwrap concepts and are free to
+    stop and ask questions. The slower pace of these whiteboard lectures allows
+    the students to digest the information presented and encourages them to
+    actively process it.
+
+    Of course, not all classes lend themselves to writing on the board. For
+    instance, when I teach CSE 20289 Systems Programming, I use a mixture of
+    the chalkboard and slide presentations since some of material requires a
+    richer medium. In these courses, other tactics for engaging the students
+    are required. One method I frequently utilize is to ask review questions at
+    the beginning of class and to have the students answer them first in small
+    groups and then with the whole class (i.e. a variant of think-pair-share).
+    This compels the students to be current with the material and provides a
+    good basis for discussion.  Likewise, throughout the lecture, I often ask
+    probing questions such as to predict what will happen in a piece of code or
+    to explain a concept.
+
+    When possible, I will also utilize live action role-playing as a teaching
+    method.  In these situations, student volunteers come to the front of the
+    class and act out a sequence of events to demonstrate a concept.  For
+    instance, in CSE 30341 Operating systems, I had students act out the role
+    of a user application, the CPU, and the operating system kernel to
+    illustrate what happens during a system call.  Because these demonstrations
+    are somewhat unusual and lively, they serve as great opportunities to
+    explore and define a general concept.  Once the role-playing is over, I
+    usually dive into the details using the more traditional chalkboard, and
+    thus reinforce the previously presented idea.
+
+    Another method that I employ in programming courses such as CSE 30872
+    Programming Challenges is to have students present their solutions to
+    assignments. This leads to interesting discussions over programming
+    techniques and approaches, especially if other students are allowed to
+    review the solutions.  I also often bring a student up to the computer or
+    board to be the "driver".  In this situation, the student performs the
+    mechanics of either typing in code or writing on the board, while I work
+    with the rest of the class to guide the "driver" in solving the problem at
+    hand.  All these methods are useful in that they not only help keep
+    students engaged, but they also allow the instructor to assess the overall
+    progress of the class in an informal manner.
+
+    Having fun and innovative assignments is also an effective means of
+    engaging and motivating students.  In fact, creating programming
+    assignments is my favorite part of teaching. For instance, in CSE 20289
+    Systems Programming, I had the students write a filesystem monitor, a
+    brute-force password cracker, and even a HTTP server. For the Elements of
+    Computing course, I have assignments such as calculating Pi using a Monte
+    Carlo simulation and plotting historical data from the Social Security
+    Agency in order to connect computer science with different fields such
+    mathematics and history.  From my experience, well-designed and challenging
+    assignments not only help students learn the material, but also work in
+    keeping students interested and motivated.
+
+    Good programming assignments also help in another essential part of
+    teaching, which is to promote student creativity. Personally, I have found
+    that I learn best by doing. The beauty of Computer Science is that it is so
+    easy (and fun) to explore and play around with the ideas and concepts you
+    learn about; you just need a computer and some inspiration. As noted
+    earlier, I immensely enjoy devising programming assignments, and I try to
+    ensure that each assignment reinforces a very specific concept or idea,
+        while still allowing the students to explore.  Although my courses tend
+        to require a lot of work, many students end up appreciate my
+        challenging assignments as demonstrated in the following anonymous CIF
+        comments:
+
+    - "They were a lot of work, bordering on excessive. But only bordering.
+      Because they were *so* valuable to learning. So much of this material
+      makes very little sense until you actually have to sit down to do it...
+      The assignments were challenging; they took a lot of time and required a
+      lot of work. They were confusing and difficult, had lots of moving parts,
+      and made my life a little bit of a challenge every week. But they were
+      worth it. I actually *understand* the material I was tasked to
+      understand, which is delightful. The invested work paid off, and it's
+      wonderful to have a class where that happens."
+
+    - "Everything in this class has a purpose. Every concept, every lecture, it
+      all tells a story; everything connects. Professor Bui is one of the best,
+      if not the best, professor that I've ever had. Yes, he expects a lot of
+      you, but it's so worth it. He's clearly very passionate about teaching.
+      His assignments are pretty challenging, but then you get to look back and
+      see all of the amazing things you were able to accomplish. This has been
+      my favorite computer science class so far, and it's made me so excited
+      for the other classes I'll take in this major."
+
+    - "You good teach, pbui. He is so good at teaching, and really wants each
+      and every student to succeed. He is an expert at anticipating where
+      students will have trouble understanding concepts, and works really hard
+      to get us to overcome those issues. His class requires serious effort-
+      I've worked more for his class than any other this semester- but the
+      results are more than worth it. I've learned so much in this class, and
+      it's only made me even more excited for this major. I've had a lot of
+      good professors, but he's the one that has been most invested in my
+      education and general well-being. You good teach, pbui."
+
+    To further promote creativity, I also like to incorporate large class
+    projects in my courses. For these projects, I give the students a high
+    level goal and let them determine most of the details. Usually, I let the
+    students work in groups of two or three, which also helps them practice
+    collaboration and teamwork. In the CSE 40842 Hackers in the Bazaar course,
+    I had four such projects. For the one assignments, the students were
+    charged with re-creating a historical computing artifact such as a MUD, a
+    computer game, or a BASIC interpreter.  In another project, the students
+    were required to create a web application or service using a non-mainstream
+    language such as Clojure, Elixir, Go, or Rust.  Such projects allow the
+    students to apply their knowledge to something that is relevant and
+    interesting them, while utilizing their imagination and creativity.
+    Moreover, these larger projects serve not only as avenues for discovery,
+    but also have the pleasant side-effect of developing the student's
+    portfolio of work.
+
+    Finally, it is important to be accessible to your students and interact
+    with them on a regular basis. At the university level, the relationship
+    between teacher and student is paramount to an effective education. Because
+    of this, I try to foster communication with my students however I can. For
+    instance, during lecture I frequently solicit questions or comments from
+    the students. Of course, most students are hesitant to ask questions in
+    class, so I provide other means of communication. One common tactic is to
+    hold office hours, so that students can come and talk to me one-on-one.  At
+    the University of Notre Dame, I have an open door policy where students can
+    stop by whenever my door is open (which is almost all the time).  I have
+    found these office visits useful not only for the student requiring help,
+    but also for myself since it provided insight to any shortcomings in
+    teaching.
+
+    Another means of interaction is through electronic communication. From my
+    experience, email or chat is much easier for some students, and so I let my
+    classes know I am open to answering questions through email and internet
+    relay chat (IRC) or Slack.  Additionally, I have also begun using blogs as
+    a communication platform in some of my classes such as CSE 40175 Ethical
+    and Professional Issues, which provides students a platform for developing
+    and presenting their ideas to the world.  In the CSE 40175 course, I read
+    each student's blog and will quote them in class in order to promote
+    discussion and to give the student to explain their thoughts and views.
+    Regardless of which communication system is used, whenever I receive a
+    message from a student, I try to respond promptly.  If the problem is too
+    complex to discuss effectively over the network, then I encourage the
+    student to come to my office hours or I try to follow up after class.
+
+    Because my position as an assistant teaching professor at the University of
+    Notre Dame requires that I teach three courses a semester (and usually
+    three very different classes), I have not had the opportunity to develop an
+    independent research program.  Instead, I focus on teaching and exploring
+    opportunities to promote computer science education.  This is manifested in
+    my involvement in the Faculty Search and Undergraduate Curriculum
+    committees within the Computer Science and Engineering department.  In the
+    former, I participated in interviewing and hiring another Special
+    Professional Faculty, while in the latter, I have been involved in a
+    variety of educational initiatives such as the restructuring our core
+    undergraduate sequence, collecting and analyzing demographic data regarding
+    programming languages, and proposing a new CS4All general education
+    elective for inclusion in the core curriculum.
+
+    My passion for computer science in general and open source in particular
+    has lead me to revive the Notre Dame Linux Users Group.  I currently serve
+    as the faculty advisor for the student organization and work to encourage
+    an inclusive and welcoming community to all computing enthusiasts
+    regardless of their preference in distribution, text editor, window
+    manager, or shell.
+
+    In recognition of all my teaching efforts, I have won the following awards
+    at the University of Notre Dame:
+
+    - College of Engineering Outstanding Teacher Award (2017).
+
+    - Frank O'Malley Teaching Award (2017).
+
+    - Outstanding Teaching Award in the Department of Computer Science and
+      Engineering (2016).
+
+    Altogether, every aspect of my work as an assistant teaching professor at
+    the University of Notre Dame is centered on promoting the beauty and joy of
+    computer science to my students.  Whenever I approach teaching a course, I
+    strive to be well-prepared, engage the students, promote creativity, and be
+    accessible, which I believe are core components to effective teaching. I
+    recognize that teaching is a craft that is honed through years of
+    experience and involves continual practice and improvement. For me, the
+    ultimate goal of teaching Computer Science is to ground the students in the
+    fundamental principles and concepts of the field, and to inspire in them my
+    passion and enthusiasm.
