@@ -8,6 +8,16 @@
   tags:
         - Education
 
+- title:    "Python Bootcamp"
+  link:     https://www3.nd.edu/~pbui/teaching/pbc.su17/
+  type:     Workshop
+  authors:
+        - Peter Bui
+  venue:    NDRET2017
+  date:     2017-07
+  tags:
+        - Education
+
 - title:    "Teaching Distributed Computing with WorkQueue"
   link:     http://dl.acm.org/citation.cfm?id=3017838
   type:     Workshop
