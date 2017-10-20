@@ -1,3 +1,13 @@
+- title:    "Slacking and Hacking: A Life Inspired by Computer Science"
+  link:     https://docs.google.com/presentation/d/1uLwHsYY6ZhTDexPnCqI94ZP4GIL3ub-rUB_I1tb_Qlg/edit?usp=sharing
+  type:     Invited Talk
+  authors:
+        - Peter Bui
+  venue:    SMCSWE2017
+  date:     2017-10
+  tags:
+        - Education
+
 - title:    "Teaching Distributed Computing with WorkQueue"
   link:     http://dl.acm.org/citation.cfm?id=3017838
   type:     Workshop
