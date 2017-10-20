@@ -1,22 +1,22 @@
 undergraduates:
     - name:         John Stupka
       year:         2015
-    
+
     - name:         Haley Muotka
       year:         2015
-    
+
     - name:         Trey Zahradka
       year:         2015
-    
+
     - name:         Lucas Novoa
       year:         2015
-    
+
     - name:         Charles Volzka
       year:         2015
-    
+
     - name:         Grant Wuerker
       year:         2015
-    
+
     - name:         Matt Kennedy
       year:         2015
 
@@ -25,61 +25,61 @@ undergraduates:
 
     - name:         Robert Fisher
       year:         2014
-    
+
     - name:         Ben Singer
       year:         2014
-    
+
     - name:         Nate Carr
       year:         2014
-    
+
     - name:         Hyoki Lee
       year:         2014
-    
+
     - name:         Zach Zens
       year:         2014
-    
+
     - name:         Chris Haynes
       year:         2014
-    
+
     - name:         Corey Feiock
       year:         2014
-    
+
     - name:         Justin Feiock
       year:         2014
-    
+
     - name:         Nicholas Hasz
       year:         2014
-    
+
     - name:         Travis Boettcher
       year:         2014
-    
+
     - name:         John Rankin
       year:         2014
 
     - name:         Mitchell Wood
       year:         2013
-    
-    - name:         Nicholas Hasz 
+
+    - name:         Nicholas Hasz
       year:         2013
-    
+
     - name:         Nicholas Jaeger
       year:         2013
-    
+
     - name:         James Felton
       year:         2013
-    
+
     - name:         Adam Al-Ibrahim
       year:         2013
-    
+
     - name:         Travis Boettcher
       year:         2013
-    
+
     - name:         Natalie Wolf
       year:         2013
-    
+
     - name:         Corey Feiock
       year:         2013
-    
+
     - name:         Jeffrey Westphal
       year:         2013
 
@@ -106,7 +106,7 @@ advising:
       school:       University of Wisconsin - Eau Claire
 
 organizations:
-    - name:         University of Notre Dame Linux Users Group
+    - name:         Notre Dame Linux Users Group
       role:         Faculty Advisor
       year:         2015 - Present
 
@@ -121,6 +121,14 @@ organizations:
     - name:         Notre Dame Linux Users Group
       role:         President
       year:         2005 - 2006
+
+department_committee:
+    - name:         Undergraduate Curriculum Committee
+      year:         2017 - Present
+    - name:         Faculty Search Committee
+      year:         2017 - Present
+    - name:         Faculty Search Committee (SPF)
+      year:         Spring 2016
 
 program_committee:
     - name:         CIGPU

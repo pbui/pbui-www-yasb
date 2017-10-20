@@ -197,6 +197,8 @@ body:       |
         {% end %}
     </table>
 
+    <p style="page-break-before: always;"></p>
+
     ### Honors and Awards
 
     <table style="width: 100%;">
@@ -243,6 +245,19 @@ body:       |
             <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
             <td class="cv-cell">{{ entry['name'] }}.</td>
             <td class="cv-cell cv-back">{{ entry['role'] }}</td>
+        </tr>
+        {% end %}
+    </table>
+
+    <p style="page-break-before: always;"></p>
+
+    #### Department Committee
+
+    <table style="width: 100%;">
+        {% for entry in page.external['service']['department_committee'] %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['name'] }}.</td>
         </tr>
         {% end %}
     </table>
