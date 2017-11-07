@@ -43,7 +43,7 @@ body:       |
         {% for item in page.external.get(collection, [])[:5] %}
             {% set item_link    = item.get('link', '') or '' %}
             {% set item_authors = ['<strong>{}</strong>'.format(author) if author == page.internal['author'] else author for author in item['authors']] %}
-            {% set item_authors = item_authors[:-1] + ['and ' + item_authors[-1]] %}
+            {% set item_authors = item_authors[:-1] + ['and ' + item_authors[-1]] if len(item_authors) > 1 else item_authors %}
             {% set item_authors = ', '.join(item_authors) if len(item_authors) >= 3 else ' '.join(item_authors) %}
             {% set item_venue   = page.external['venues'][item['venue']] %}
             <li>
