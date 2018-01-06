@@ -1,20 +1,35 @@
+- title:    CSE 20289 Systems Programming
+  semester: Spring 2018
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp18
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40175 Ethical and Professional Issues
+  semester: Spring 2018
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp18
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40850 History of Computing
+  semester: Fall 2017
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40850.sp18
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa17
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa17
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa17
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2017
