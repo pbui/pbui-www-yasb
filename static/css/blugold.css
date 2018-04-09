@@ -1,12 +1,12 @@
 /*!
- * bootswatch v3.3.6
+ * bootswatch v3.3.5
  * Homepage: http://bootswatch.com
- * Copyright 2012-2016 Thomas Park
+ * Copyright 2012-2015 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -112,7 +112,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: Menlo, Monaco, Consolas, monospace;
   font-size: 1em;
 }
 button,
@@ -1094,7 +1094,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 13px;
   line-height: 1.42857143;
   color: #555555;
@@ -1196,7 +1196,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.1;
   color: #002b5c;
@@ -1560,7 +1560,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, monospace;
 }
 code {
   padding: 2px 4px;
@@ -4957,6 +4957,13 @@ a.label:focus {
 .label-primary[href]:focus {
   background-color: #178acc;
 }
+.label-caution {
+  background-color: #c4a000;
+}
+.label-caution[href]:hover,
+.label-caution[href]:focus {
+  background-color: #edd400;
+}
 .label-success {
   background-color: #73a839;
 }
@@ -4965,7 +4972,7 @@ a.label:focus {
   background-color: #59822c;
 }
 .label-info {
-  background-color: #033c73;
+  background-color: #2fa4e7;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
@@ -6063,7 +6070,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6181,7 +6188,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
