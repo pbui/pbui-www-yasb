@@ -30,22 +30,23 @@ body:       |
     <img src="{{ page.prefix }}static/img/pbui_and_mbui.jpg" class="img-rounded pull-left" style="margin-right: 10px;" />
     </span>
 
-    Hello, my name is **Peter Bui** and I am an assistant teaching professor in
-    the [Computer Science and Engineering] department at the [University of
-    Notre Dame].  In addition to [teaching] Computer Science courses such as
-    Systems Programming, Operating System Principles, and Ethical and
-    Professional Issues, I am also involved in the core Elements of Computing
-    programming sequence in the [Computing & Digital Technologies] minor.
-    Outside the classroom, I enjoy hacking on [research] projects related to
-    systems programming, operating systems, cloud computing, programming
-    languages, and web services, and I would welcome the opportunity to work
-    with **undergraduate** students on such projects.
+    Hello, my name is **Peter Bui** and I am an **associate teaching
+    professor** in the [Computer Science and Engineering] department at the
+    [University of Notre Dame].  In addition to [teaching] Computer Science
+    courses such as Systems Programming, Operating System Principles, and
+    Ethical and Professional Issues, I am also the faculty advisor for the
+    [Linux Users Group] and am involved in the [Computing & Digital
+    Technologies] minor.  Outside the classroom, I enjoy hacking on [research]
+    projects related to systems programming, operating systems, cloud
+    computing, programming languages, and web services, and I would welcome the
+    opportunity to work with **undergraduate** students on such projects.
 
     [Computer Science and Engineering]:         http://cse.nd.edu
     [University of Notre Dame]:                 http://www.nd.edu
     [teaching]:                                 teaching/
     [research]:                                 research/
     [Computing & Digital Technologies]:         http://cdt.nd.edu
+    [Linux Users Group]:                        http://ndlug.org
 
     </div>
 
@@ -83,7 +84,6 @@ body:       |
 
     <div class="col-md-4">
         <h3>Research</h3>
-
         {% for collection in ('publications', 'presentations') %}
         <h4>Recent {{ collection.title() }}</h4>
         <ul>
