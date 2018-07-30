@@ -101,7 +101,7 @@ body:       |
     </thead>
     <tbody>
     <tr>
-    <td class="text-strong" rowspan="7">Science Fiction</td>
+    <td class="text-strong" rowspan="8">Science Fiction</td>
     <td>[John Scalzi](http://en.wikipedia.org/wiki/John_Scalzi)</td>
     <td>
     [Old Man's War Series](https://en.wikipedia.org/wiki/Old_Man%27s_War_series)
@@ -112,7 +112,7 @@ body:       |
     <td>
     [Starship Troopers](https://en.wikipedia.org/wiki/Starship_Troopers),
     [Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land),
-    [The Moon is a Harsh Mistress)](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress)
+    [The Moon is a Harsh Mistress](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress)
     </td>
     </tr>
     <tr>
@@ -146,6 +146,12 @@ body:       |
     <td>[Edgar Burroughs](https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs)</td>
     <td>
     [John Carter of Mars Series](https://en.wikipedia.org/wiki/John_Carter_of_Mars_(collection))
+    </td>
+    </tr>
+    <tr>
+    <td>[Pierce Brown](https://en.wikipedia.org/wiki/Red_Rising)</td>
+    <td>
+    [Red Rising Series](https://en.wikipedia.org/wiki/Red_Rising)
     </td>
     </tr>
     <tr>
