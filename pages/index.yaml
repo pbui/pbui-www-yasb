@@ -127,8 +127,6 @@ body:       |
         <div class="btn-toolbar pull-right">
             <a class="btn btn-primary btn-sm" href="cv.html"><i class="fa fa-file-text-o"></i></a>
             <a class="btn btn-primary btn-sm" href="https://nd-cse.slack.com/"><i class="fa fa-slack"></i></a>
-            <a class="btn btn-primary btn-sm" href="https://plus.google.com/116945319339267386456/"><i class="fa fa-google-plus"></i></a>
-            <a class="btn btn-primary btn-sm" href="https://bitbucket.org/pbui/"><i class="fa fa-bitbucket"></i></a>
             <a class="btn btn-primary btn-sm" href="https://gitlab.com/pbui/"><i class="fa fa-gitlab"></i></a>
             <a class="btn btn-primary btn-sm" href="https://github.com/pbui/"><i class="fa fa-github"></i></a>
         </div>
