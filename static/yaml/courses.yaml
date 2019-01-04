@@ -1,20 +1,35 @@
+- title:    CSE 10001 Principles of Computing
+  semester: Spring 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.10001.sp19
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 20289 Systems Programming
+  semester: Spring 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp19
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40842 Hackers in the Bazaar
+  semester: Spring 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp19
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa18
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa18
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa18
   school:   University of Notre Dame
-  active:   true
 
 - title:    EG 44175 Ethical and Professional Issues in Engineering
   semester: Summer 2018
