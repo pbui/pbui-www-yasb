@@ -1,3 +1,15 @@
+- title:    "Using WorkQueue to Teach Distributed Computing"
+  link:     https://www.ccsc.org/northwest/docarchive/2018/Program.pdf
+  type:     Tutorial
+  authors:
+      - Aaron Dingler
+      - Peter Bui
+  venue:    CCSCNW2018
+  date:     2018-10
+  tags:
+      - Education
+      - WorkQueue
+
 - title:    "Slacking and Hacking: A Life Inspired by Computer Science"
   link:     https://docs.google.com/presentation/d/1uLwHsYY6ZhTDexPnCqI94ZP4GIL3ub-rUB_I1tb_Qlg/edit?usp=sharing
   type:     Invited Talk
