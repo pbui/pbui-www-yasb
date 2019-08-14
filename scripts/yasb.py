@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 # Copyright (c) 2015- Peter Bui <peter.j.bui@gmail.com>
 
@@ -46,13 +46,13 @@ def load_page_from_yaml(path):
 def render_page(page):
     hilite = markdown.extensions.codehilite.CodeHiliteExtension(noclasses=True)
     loader = tornado.template.Loader('templates')
-    layout = '''
+    layout = u'''
 {{% extends "base.tmpl %}}
 
 {{% block body %}}
 {}
 {{% end %}}
-'''.format(markdown.markdown(page.body, extensions=['extra']))
+'''.format(markdown.markdown(page.body.encode('utf-8').decode('utf-8'), extensions=['extra', hilite]))
 
     template = tornado.template.Template(layout, loader=loader)
     settings = {
@@ -60,7 +60,7 @@ def render_page(page):
         'dateutil'  : dateutil,
         'itertools' : itertools,
     }
-    print(template.generate(**settings).decode('utf-8'))
+    print(template.generate(**settings).decode())
 
 # Main Execution ---------------------------------------------------------------
 
