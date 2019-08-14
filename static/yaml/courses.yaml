@@ -1,20 +1,23 @@
+- title:    CSE 34872 Programming Challenges
+  semester: Summer 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su19
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 10001 Principles of Computing
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.10001.sp19
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp19
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 40842 Hackers in the Bazaar
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp19
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2018
