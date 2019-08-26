@@ -1,8 +1,25 @@
+- title:    CSE 30341 Operating System Principles
+  semester: Fall 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa19
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 30872 Programming Challenges
+  semester: Fall 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa19
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40175 Ethical and Professional Issues
+  semester: Fall 2019
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa19
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 34872 Programming Challenges
   semester: Summer 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su19
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 10001 Principles of Computing
   semester: Spring 2019
