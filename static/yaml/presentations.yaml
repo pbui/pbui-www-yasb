@@ -1,3 +1,13 @@
+- title:    "Python Bootcamp"
+  link:     https://www3.nd.edu/~pbui/teaching/pbc.su19/
+  type:     Workshop
+  authors:
+        - Peter Bui
+  venue:    NDRET2019
+  date:     2019-07
+  tags:
+        - Education
+
 - title:    "Using WorkQueue to Teach Distributed Computing"
   link:     https://www.ccsc.org/northwest/docarchive/2018/Program.pdf
   type:     Tutorial
