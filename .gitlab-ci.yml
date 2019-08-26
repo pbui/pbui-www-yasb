@@ -1,7 +1,4 @@
-before_script:
-  - apt-get update -y
-  - apt-get install -y python-markdown python-tornado python-dateutil
-
+image: pbui/yasb
 test:
   script:
     - make
