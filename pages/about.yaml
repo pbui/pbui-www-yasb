@@ -19,12 +19,7 @@ navigation:
 internal:
 external:
 body:       |
-
-    <div class="row" markdown="1">
-
-    <span markdown="1">
-      <img src="{{ page.prefix }}static/img/family_2017.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
-    </span>
+    <img src="{{ page.prefix }}static/img/family_2019.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
 
     Hello! As noted on the front page, my name is **Peter Bui** and I am
     currently an associate teaching professor (aka [SPF]) in the [Computer
@@ -54,10 +49,6 @@ body:       |
     [Computer Science and Engineering]:     http://cse.nd.edu
     [Cooperative Computing Lab]:            http://ccl.cse.nd.edu
     [Douglas Thain]:                        http://www.nd.edu/~dthain
-
-    </div>
-
-    <div class="row" markdown="1">
 
     ### Interests
 
@@ -194,14 +185,8 @@ body:       |
 
     ### Hobbies
 
-    - Chasing the kids around the house and dancing with them.
+    - Playing games and drawing pictures with the kids.
 
     - Watching movies and TV shows with Jenny.
 
-    - Trolling my friends [Patrick Donnelly](http://www.nd.edu/~pdonnel3/) and [Hoang Bui](http://hoangbui.com/).
-
-    - Trolling my former students in `#uwec-cs` on
-      [Freenode](http://www.freenode.net/) and my current students in [ND CSE
-      Slack](https://nd-cse.slack.com).
-
-    </div>
+    - Trolling my students on [Freenode](http://www.freenode.net/), [Snoonet](https://snoonet.org/), and [ND CSE Slack](https://nd-cse.slack.com).
