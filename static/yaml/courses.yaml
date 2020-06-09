@@ -1,20 +1,23 @@
+- title:    CSE 34872 Programming Challenges
+  semester: Summer 2020
+  link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su20
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 10001 Principles of Computing
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.10001.sp20
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp20
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 40677 Open Source Software Development
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.40677.sp20
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2019
