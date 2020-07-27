@@ -23,10 +23,10 @@ deploy:		all
 	cp -frv pages/*.html		${DEPLOY}/.
 
 	mkdir -p ${DEPLOY}/research
-	cp -frv pages/research		${DEPLOY}/research/.
+	cp -frv pages/research/*	${DEPLOY}/research/.
 
 	mkdir -p ${DEPLOY}/teaching
-	cp -frv pages/teaching		${DEPLOY}/teaching/.
+	cp -frv pages/teaching/*	${DEPLOY}/teaching/.
 
 	mkdir -p ${DEPLOY}/static
 	cp -frv static/*		${DEPLOY}/static/.
