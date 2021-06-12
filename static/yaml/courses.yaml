@@ -1,14 +1,28 @@
+- title:    CSE 34872 Programming Challenges
+  semester: Summer 2021
+  link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su21
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 20289 Systems Programming
+  semester: Spring 2021
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp21
+  school:   University of Notre Dame
+
+- title:    CSE 40842 Hackers in the Bazaar
+  semester: Spring 2021
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp21
+  school:   University of Notre Dame
+
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa20
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa20
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 34872 Programming Challenges
   semester: Summer 2020
