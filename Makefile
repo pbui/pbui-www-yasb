@@ -1,4 +1,3 @@
-TARGET= 	/net/smb/pbui@fs.nd.edu/www
 COMMON= 	$(shell ls static/yaml/*.yaml) 	\
 		  scripts/yasb.py 			\
 		  templates/base.tmpl
@@ -11,13 +10,6 @@ HTML= 		${YAML:.yaml=.html}
 	./scripts/yasb.py $< > $@
 
 all:		${HTML}
-
-install:	all
-	mkdir -p ${TARGET}/static
-	rsync ${RSYNC_FLAGS} pages/.		${TARGET}/.
-	rsync ${RSYNC_FLAGS} static/.      	${TARGET}/static/.
-	mkdir -p ${TARGET}/common
-	rsync ${RSYNC_FLAGS} static/common/.    ${TARGET}/common/.
 
 deploy:		all
 	cp -frv pages/*.html		${DEPLOY}/.
@@ -35,7 +27,7 @@ deploy:		all
 	mkdir -p ${DEPLOY}/common
 	cp -frv static/common/*		${DEPLOY}/common/.
 
-mirror:	deploy
+install:	deploy
 	lftp -c "open www3ftps.nd.edu; mirror -c -R -L public www"
 
 clean:
