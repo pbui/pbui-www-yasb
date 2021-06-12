@@ -8,91 +8,109 @@
   semester: Spring 2021
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp21
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40842 Hackers in the Bazaar
   semester: Spring 2021
   link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp21
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa20
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa20
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 34872 Programming Challenges
   semester: Summer 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su20
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 10001 Principles of Computing
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.10001.sp20
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp20
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40677 Open Source Software Development
   semester: Spring 2020
   link:     https://www3.nd.edu/~pbui/teaching/cse.40677.sp20
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 34872 Programming Challenges
   semester: Summer 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.34872.su19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 10001 Principles of Computing
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.10001.sp19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40842 Hackers in the Bazaar
   semester: Spring 2019
   link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp19
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa18
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa18
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa18
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    EG 44175 Ethical and Professional Issues in Engineering
   semester: Summer 2018
@@ -103,81 +121,97 @@
   semester: Spring 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp18
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Spring 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp18
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40850 History of Computing
   semester: Spring 2018
   link:     https://www3.nd.edu/~pbui/teaching/cse.40850.sp18
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 30341 Operating System Principles
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa17
   school:   University of Notre Dame
+  cifs:     4.8
 
 - title:    CSE 30872 Programming Challenges
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa17
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa17
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp17
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Spring 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp17
   school:   University of Notre Dame
+  cifs:     4.8
 
 - title:    CSE 40842 Hackers in the Bazaar
   semester: Spring 2017
   link:     https://www3.nd.edu/~pbui/teaching/cse.40842.sp17
   school:   University of Notre Dame
+  cifs:     4.6
 
 - title:    CDT 30010 Elements of Computing I
   semester: Fall 2016
   link:     http://www3.nd.edu/~pbui/teaching/cdt.30010.fa16
   school:   University of Notre Dame
+  cifs:     4.8
 
 - title:    CSE 30331 Data Structures
   semester: Fall 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.30331.fa16
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Fall 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.fa16
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CDT 30020 Script-based Programming II
   semester: Spring 2016
   link:     http://www3.nd.edu/~pbui/teaching/cdt.30020.sp16
   school:   University of Notre Dame
+  cifs:     4.8
 
 - title:    CSE 20189 Basic Unix for Engineers
   semester: Spring 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.20189.sp16
   school:   University of Notre Dame
+  cifs:     4.7
 
 - title:    CSE 40175 Ethical and Professional Issues
   semester: Spring 2016
   link:     https://www3.nd.edu/~pbui/teaching/cse.40175.sp16
   school:   University of Notre Dame
+  cifs:     4.7
 
 - title:    CDT 30010 Script-based Programming I
   semester: Fall 2015
   link:     http://www3.nd.edu/~pbui/teaching/cdt.30010.fa15
   school:   University of Notre Dame
+  cifs:     4.9
 
 - title:    CSE 20110 Discrete Mathematics
   semester: Fall 2015
@@ -188,6 +222,7 @@
   semester: Fall 2015
   link:     http://www3.nd.edu/~dchiang/teaching/ds/2015/
   school:   University of Notre Dame
+  cifs:     4.6
 
 - title:    CSE 20232 C/C++ Programming
   role:     Substitute
@@ -273,6 +308,7 @@
   school:   University of Notre Dame
   link:     http://www3.nd.edu/~pbui/teaching/cse.40166.fa10/
   semester: Fall 2010
+  cifs:     4.3
 
 - title:    CSE 20232 C/C++ Programming
   role:     Substitute
@@ -283,6 +319,7 @@
   school:   University of Notre Dame
   link:     http://www3.nd.edu/~pbui/teaching/cse.40872.fa09/
   semester: Fall 2009
+  cifs:     4.8
 
 - title:    CSE 20221 Logic Design and Sequential Circuits
   semester: Spring 2009
