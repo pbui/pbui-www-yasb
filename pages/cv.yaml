@@ -87,6 +87,9 @@ body:       |
                         {% else %}
                         {{ course['title'] }} {% if course.get('role') %}<i>({{ course['role'] }})</i>{% end %}
                         {% end %}
+                        {% if course.get('cifs') %}
+                        (<i class="text-muted">{{ course['cifs'] }}</i>)
+                        {% end %}
                     </li>
                     {% end %}
                 </ul>
