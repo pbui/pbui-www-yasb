@@ -22,21 +22,21 @@ body:       |
     <img src="{{ page.prefix }}static/img/family_2019.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
 
     Hello! As noted on the front page, my name is **Peter Bui** and I am
-    currently an associate teaching professor (aka [SPF]) in the [Computer
-    Science and Engineering] department at the [University of Notre Dame]. I am
-    originally from Orange, CA and went to [La Purisima] elementary and middle
-    school and [Mater Dei] high school.  For college, I attended the
-    [University of Notre Dame] and majored in [Computer Science and
-    Engineering] there. I liked the program so much, I stayed for graduate
-    school and worked in the [Cooperative Computing Lab] under [Douglas Thain].
-    Eventually, I received my Master's and Ph.D. from Notre Dame, making me a
-    rare **triple domer**! During my time in graduate school, I married my high
-    school sweetheart, **Jennifer Rising**, and we had a beautiful baby boy
-    named **Caleb**.  Upon graduating, I went to work at the [Computer Science]
-    department at the [University of Wisconsin - Eau Claire].  During my first
-    year at UWEC, our family grew even larger with the addition of twins girls
-    **Abigail** and **Madeline**!  After three great years at UWEC, my family
-    and I have returned to Notre Dame.
+    currently an associate teaching professor (aka [SPF][]) in the [Computer Science and Engineering][]
+    department at the [University of Notre Dame][].
+    I am originally from Orange, CA and went to [La Purisima][] elementary and
+    middle school and [Mater Dei][] high school.  For college, I attended the
+    [University of Notre Dame][] and majored in [Computer Science and Engineering][] there.
+    I liked the program so much, I stayed for graduate
+    school and worked in the [Cooperative Computing Lab][] under
+    [Douglas Thain][].  Eventually, I received my Master's and Ph.D. from Notre Dame,
+    making me a rare **triple domer**! During my time in graduate school, I
+    married my high school sweetheart, **Jennifer Rising**, and we had a
+    beautiful baby boy named **Caleb**.  Upon graduating, I went to work at the
+    [Computer Science][] department at the
+    [University of Wisconsin - Eau Claire][].  During my first year at UWEC, our
+    family grew even larger with the addition of twins girls **Abigail** and **Madeline**!
+    After three great years at UWEC, my family and I have returned to Notre Dame.
 
     [Computer Science and Engineering]:     http://cse.nd.edu
     [SPF]:                                  https://spf.nd.edu

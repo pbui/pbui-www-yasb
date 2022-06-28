@@ -31,12 +31,12 @@ body:       |
     </span>
 
     Hello, my name is **Peter Bui** and I am an **associate teaching
-    professor** in the [Computer Science and Engineering] department at the
-    [University of Notre Dame].  In addition to [teaching] Computer Science
+    professor** in the [Computer Science and Engineering][] department at the
+    [University of Notre Dame][].  In addition to [teaching][] Computer Science
     courses such as Principles of Computing, Systems Programming, Programming
     Challenges, and Operating System Principles, I am also the faculty advisor
-    for the [Linux Users Group].  Outside the classroom, I enjoy hacking on
-    [research] projects related to systems programming, operating systems,
+    for the [Linux Users Group][].  Outside the classroom, I enjoy hacking on
+    [research][] projects related to systems programming, operating systems,
     cloud computing, programming languages, and web services, and I would
     welcome the opportunity to work with **undergraduate** students on such
     projects.
