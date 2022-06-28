@@ -56,19 +56,24 @@ body:       |
 
     I use [Linux](http://kernel.org) extensively in my teaching, in my
     research, and at home for personal use.
+    
+    - [Pop!_OS](https://pop.system76.com/): My current *client*
+      distribution. I contribute to a view projects and packages.
 
-    - [Void Linux](http://www.voidlinux.eu/): My current distribution. I
-      contribute and maintain a few packages.
+    - [Ubuntu](https://ubuntu.com/): My current *server* distribution.
+
+    - [Void Linux](http://www.voidlinux.org/): My former distribution. I have
+      contributed and maintained a few packages, but am not active anymore.
 
     - [Alpine Linux](http://www.alpinelinux.org): My former server
       distribution. I have contributed and maintained a few packages, but am
       not active anymore.
 
-    - [Arch Linux](http://www.archlinux.org): My former laptop/desktop
+    - [Arch Linux](http://www.archlinux.org): My former client
       distribution. I have contributed some documentation and packages, but am
       not active anymore.
 
-    - [i3wm](http://i3wm.org): My current window manager. I've contributed a few
+    - [i3wm](http://i3wm.org): My former window manager. I've contributed a few
       patches, but am not active anymore.
 
     #### Sports
@@ -163,12 +168,11 @@ body:       |
     <tr>
     <td>[Ken Follett](https://en.wikipedia.org/wiki/Ken_Follett)</td>
     <td>
-    [Pillars of the Earth](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth),
-    [World without End](https://en.wikipedia.org/wiki/World_Without_End_(Follett_novel))
+    [Kingsbridge Series](https://www.goodreads.com/series/60161-kingsbridge)
     </td>
     </tr>
     <tr>
-    <td class="text-strong" rowspan="2">Fantasy</td>
+    <td class="text-strong" rowspan="4">Fantasy</td>
     <td>[Miles Cameron](https://en.wikipedia.org/wiki/Christian_Cameron#As_Miles_Cameron)
     <td>
     [Traitor Son Cycle](https://www.goodreads.com/series/87389-the-traitor-son-cycle)
@@ -178,6 +182,19 @@ body:       |
     <td>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson)</td>
     <td>
     [The Stormlight Archive](https://en.wikipedia.org/wiki/The_Stormlight_Archive)
+    </td>
+    </tr>
+    <tr>
+    <td>[John Flanagan](https://en.wikipedia.org/wiki/John_Flanagan_(author))
+    <td>
+    [The Ranger's Apprentice Series](https://www.goodreads.com/series/43436-ranger-s-apprentice)
+    </td>
+    </tr>
+    </tr>
+    <tr>
+    <td>[R.F. Kuang](https://en.wikipedia.org/wiki/R._F._Kuang)
+    <td>
+    [The Poppy War Series](https://www.goodreads.com/series/243623-the-poppy-war)
     </td>
     </tr>
     </body>
