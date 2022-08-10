@@ -32,18 +32,17 @@ body:       |
 
     Hello, my name is **Peter Bui** and I am an **associate teaching
     professor** in the [Computer Science and Engineering][] department at the
-    [University of Notre Dame][].  In addition to [teaching][] Computer Science
-    courses such as Principles of Computing, Systems Programming, Programming
-    Challenges, and Operating System Principles, I am also the faculty advisor
-    for the [Linux Users Group][].  Outside the classroom, I enjoy hacking on
-    [research][] projects related to systems programming, operating systems,
-    cloud computing, programming languages, and web services, and I would
-    welcome the opportunity to work with **undergraduate** students on such
-    projects.
+    [University of Notre Dame][].  Although I have [taught][] a number of
+    different Computer Science courses over the years, I regularly teach
+    Systems Programming, Programming Challenges, Operating System Principles,
+    Open Source Software Development, and Hackers in the Bazaar each school
+    year.  Outside the classroom, I am the faculty advisor for the
+    [Linux Users Group][], where I get to share my passion and interest in Linux, open
+    source, and technology with students, colleagues, and alumni.
 
     [Computer Science and Engineering]:         http://cse.nd.edu
     [University of Notre Dame]:                 http://www.nd.edu
-    [teaching]:                                 teaching/
+    [taught]:                                   teaching/
     [research]:                                 research/
     [Computing & Digital Technologies]:         http://cdt.nd.edu
     [Linux Users Group]:                        http://ndlug.org
@@ -52,7 +51,7 @@ body:       |
 
     <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-md-8">
         <h3>Teaching</h3>
 
         <h4>Current Courses</h4>
@@ -82,6 +81,7 @@ body:       |
         <div class="btn-toolbar pull-right"><a class="btn btn-primary btn-sm" href="teaching/">More Teaching</a></div>
     </div>
 
+    <!--
     <div class="col-md-4">
         <h3>Research</h3>
         {% for collection in ('publications', 'presentations') %}
@@ -100,6 +100,7 @@ body:       |
 
         <div class="btn-toolbar pull-right"><a class="btn btn-primary btn-sm" href="research/">More Research</a></div>
     </div>
+    -->
 
     <div class="col-md-4">
         <h3>Contact</h3>

@@ -24,6 +24,18 @@ external:
     publications:   "static/yaml/publications.yaml"
     venues:         "static/yaml/venues.yaml"
 body:       |
+    
+    <div class="alert alert-danger" markdown="1">
+    #### <i class="fa fa-exclamation-triangle"></i> Inactive Research Program
+
+    As can be seen from my publication record, I no longer have an active
+    research program.  **Undergraduate** students interested in building and
+    publishing **open source** software may reach out to me for possible
+    mentorship, but be warned that they must be highly **self-motivated** and
+    **independent** as I do not have much time or energy to dedicate to
+    research.
+
+    </div>
 
     <div class="row" markdown="1">
 
