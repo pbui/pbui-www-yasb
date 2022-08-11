@@ -6953,3 +6953,30 @@ button.close {
 .panel-info .panel-title {
   color: #fff;
 }
+
+/* Header links */
+h2 a.headerlink,
+h3 a.headerlink,
+h4 a.headerlink,
+h5 a.headerlink,
+h6 a.headerlink{
+    opacity:0;
+    font-size: 90%;
+    position: relative;
+    left: 5px;
+    transition: opacity 0.2s linear;
+}
+h2:hover a.headerlink,
+h3:hover a.headerlink,
+h4:hover a.headerlink,
+h5:hover a.headerlink,
+h6:hover a.headerlink{
+    opacity:0.7;
+}
+h2:hover a.headerlink:hover,
+h3:hover a.headerlink:hover,
+h4:hover a.headerlink:hover,
+h5:hover a.headerlink:hover,
+h6:hover a.headerlink:hover{
+    opacity:0.9;
+}
