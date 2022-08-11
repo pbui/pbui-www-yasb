@@ -1,8 +1,19 @@
+- title:    CSE 30341 Operating System Principles
+  semester: Fall 2022
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa22
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 30872 Programming Challenges
+  semester: Fall 2022
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30872.fa22
+  school:   University of Notre Dame
+  active:   true
+
 - title:    EG 44175 Ethical and Professional Issues in Engineering
   semester: Summer 2022
   link:     https://www3.nd.edu/~pbui/teaching/eg.44175.su22
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2022
