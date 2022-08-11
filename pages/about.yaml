@@ -22,21 +22,21 @@ body:       |
     <img src="{{ page.prefix }}static/img/family_2019.jpg" class="img-rounded pull-right" style="margin-left: 10px;" />
 
     Hello! As noted on the front page, my name is **Peter Bui** and I am
-    currently an associate teaching professor (aka [SPF][]) in the [Computer Science and Engineering][]
-    department at the [University of Notre Dame][].
-    I am originally from Orange, CA and went to [La Purisima][] elementary and
-    middle school and [Mater Dei][] high school.  For college, I attended the
-    [University of Notre Dame][] and majored in [Computer Science and Engineering][] there.
-    I liked the program so much, I stayed for graduate
-    school and worked in the [Cooperative Computing Lab][] under
-    [Douglas Thain][].  Eventually, I received my Master's and Ph.D. from Notre Dame,
-    making me a rare **triple domer**! During my time in graduate school, I
-    married my high school sweetheart, **Jennifer Rising**, and we had a
-    beautiful baby boy named **Caleb**.  Upon graduating, I went to work at the
-    [Computer Science][] department at the
-    [University of Wisconsin - Eau Claire][].  During my first year at UWEC, our
-    family grew even larger with the addition of twins girls **Abigail** and **Madeline**!
-    After three great years at UWEC, my family and I have returned to Notre Dame.
+    currently an associate teaching professor (aka [SPF]) in the [Computer
+    Science and Engineering] department at the [University of Notre Dame].  I
+    am originally from Orange, CA and went to [La Purisima] elementary and
+    middle school and [Mater Dei] high school.  For college, I attended the
+    [University of Notre Dame] and majored in [Computer Science and
+    Engineering] there.  I liked the program so much, I stayed for graduate
+    school and worked in the [Cooperative Computing Lab] under [Douglas Thain].
+    Eventually, I received my Master's and Ph.D. from Notre Dame, making me a
+    rare **triple domer**! During my time in graduate school, I married my high
+    school sweetheart, **Jennifer Rising**, and we had a beautiful baby boy
+    named **Caleb**.  Upon graduating, I went to work at the [Computer Science]
+    department at the [University of Wisconsin - Eau Claire].  During my first
+    year at UWEC, our family grew even larger with the addition of twins girls
+    **Abigail** and **Madeline**!  After three great years at UWEC, my family
+    and I have returned to Notre Dame.
 
     [Computer Science and Engineering]:     http://cse.nd.edu
     [SPF]:                                  https://spf.nd.edu
@@ -95,105 +95,105 @@ body:       |
     <th>Author</th>
     <th>Books</th>
     </thead>
-    <tbody>
-    <tr>
+    <tbody markdown="1">
+    <tr markdown="1">
     <td class="text-strong" rowspan="8">Science Fiction</td>
-    <td>[John Scalzi](http://en.wikipedia.org/wiki/John_Scalzi)</td>
-    <td>
+    <td markdown="1">[John Scalzi](http://en.wikipedia.org/wiki/John_Scalzi)</td>
+    <td markdown="1">
     [Old Man's War Series](https://en.wikipedia.org/wiki/Old_Man%27s_War_series)
     </td>
     </tr>
-    <tr>
-    <td>[Robert Heinlein](http://en.wikipedia.org/wiki/Robert_A._Heinlein)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Robert Heinlein](http://en.wikipedia.org/wiki/Robert_A._Heinlein)</td>
+    <td markdown="1">
     [Starship Troopers](https://en.wikipedia.org/wiki/Starship_Troopers),
     [Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land),
     [The Moon is a Harsh Mistress](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress)
     </td>
     </tr>
-    <tr>
-    <td>[Neil Gaiman](http://en.wikipedia.org/wiki/Neil_gaiman)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Neil Gaiman](http://en.wikipedia.org/wiki/Neil_gaiman)</td>
+    <td markdown="1">
     [American Gods](https://en.wikipedia.org/wiki/American_Gods)
     </td>
     </tr>
-    <tr>
-    <td>[Neal Stephenson](http://en.wikipedia.org/wiki/Neal_Stephenson)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Neal Stephenson](http://en.wikipedia.org/wiki/Neal_Stephenson)</td>
+    <td markdown="1">
     [Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash),
     [Anathem](https://en.wikipedia.org/wiki/Anathem)
     </td>
     </tr>
-    <tr>
-    <td>[Joe Haldeman](http://en.wikipedia.org/wiki/Joe_Haldeman)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Joe Haldeman](http://en.wikipedia.org/wiki/Joe_Haldeman)</td>
+    <td markdown="1">
     [The Forever War series](https://en.wikipedia.org/wiki/The_Forever_War_series)
     </td>
     </tr>
-    <tr>
-    <td>[Philip K. Dick](http://en.wikipedia.org/wiki/Philip_K._Dick)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Philip K. Dick](http://en.wikipedia.org/wiki/Philip_K._Dick)</td>
+    <td markdown="1">
     [The Man in the High Castle](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle),
     [Do Androids Dream of Electric Sheep?](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F),
     [A Scanner Darkly](https://en.wikipedia.org/wiki/A_scanner_darkly)
     </td>
     </tr>
-    <tr>
-    <td>[Edgar Burroughs](https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Edgar Burroughs](https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs)</td>
+    <td markdown="1">
     [John Carter of Mars Series](https://en.wikipedia.org/wiki/John_Carter_of_Mars_(collection))
     </td>
     </tr>
-    <tr>
-    <td>[Pierce Brown](https://en.wikipedia.org/wiki/Red_Rising)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Pierce Brown](https://en.wikipedia.org/wiki/Red_Rising)</td>
+    <td markdown="1">
     [Red Rising Series](https://en.wikipedia.org/wiki/Red_Rising)
     </td>
     </tr>
-    <tr>
+    <tr markdown="1">
     <td class="text-strong" rowspan="3">Historical Fiction</td>
-    <td>[Bernard Cornwell](https://en.wikipedia.org/wiki/Bernard_Cornwell)</td>
-    <td>
+    <td markdown="1">[Bernard Cornwell](https://en.wikipedia.org/wiki/Bernard_Cornwell)</td>
+    <td markdown="1">
     [The Saxon Stories](https://en.wikipedia.org/wiki/The_Saxon_Stories),
     [The Warlord Chronicles](https://en.wikipedia.org/wiki/The_Warlord_Chronicles),
     [The Grail Quest](https://en.wikipedia.org/wiki/The_Grail_Quest)
     </td>
     </tr>
-    <tr>
-    <td>[Angus Donald](https://en.wikipedia.org/wiki/Angus_Donald)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Angus Donald](https://en.wikipedia.org/wiki/Angus_Donald)</td>
+    <td markdown="1">
     [The Outlaw Chronicles](https://www.goodreads.com/series/72517-the-outlaw-chronicles)
     </td>
     </tr>
-    <tr>
-    <td>[Ken Follett](https://en.wikipedia.org/wiki/Ken_Follett)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Ken Follett](https://en.wikipedia.org/wiki/Ken_Follett)</td>
+    <td markdown="1">
     [Kingsbridge Series](https://www.goodreads.com/series/60161-kingsbridge)
     </td>
     </tr>
-    <tr>
+    <tr markdown="1">
     <td class="text-strong" rowspan="4">Fantasy</td>
-    <td>[Miles Cameron](https://en.wikipedia.org/wiki/Christian_Cameron#As_Miles_Cameron)
-    <td>
+    <td markdown="1">[Miles Cameron](https://en.wikipedia.org/wiki/Christian_Cameron#As_Miles_Cameron)
+    <td markdown="1">
     [Traitor Son Cycle](https://www.goodreads.com/series/87389-the-traitor-son-cycle)
     </td>
     </tr>
-    <tr>
-    <td>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson)</td>
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson)</td>
+    <td markdown="1">
     [The Stormlight Archive](https://en.wikipedia.org/wiki/The_Stormlight_Archive)
     </td>
     </tr>
-    <tr>
-    <td>[John Flanagan](https://en.wikipedia.org/wiki/John_Flanagan_(author))
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[John Flanagan](https://en.wikipedia.org/wiki/John_Flanagan_(author))
+    <td markdown="1">
     [The Ranger's Apprentice Series](https://www.goodreads.com/series/43436-ranger-s-apprentice)
     </td>
     </tr>
     </tr>
-    <tr>
-    <td>[R.F. Kuang](https://en.wikipedia.org/wiki/R._F._Kuang)
-    <td>
+    <tr markdown="1">
+    <td markdown="1">[R.F. Kuang](https://en.wikipedia.org/wiki/R._F._Kuang)
+    <td markdown="1">
     [The Poppy War Series](https://www.goodreads.com/series/243623-the-poppy-war)
     </td>
     </tr>
