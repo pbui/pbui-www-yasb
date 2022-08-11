@@ -28,7 +28,7 @@ deploy:		all
 	cp -frv static/common/*		${DEPLOY}/common/.
 
 install:	deploy
-	lftp -c "open www3ftps.nd.edu; mirror -c -R -L public www"
+	lftp -c "open www3ftps.nd.edu; mirror -n -R -L public www"
 
 clean:
 	rm -f ${HTML}
