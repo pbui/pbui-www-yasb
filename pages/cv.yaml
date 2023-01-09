@@ -254,10 +254,32 @@ body:       |
 
     <p style="page-break-before: always;"></p>
 
-    #### Department Committee
+    #### Department
 
     <table style="width: 100%;">
-        {% for entry in page.external['service']['department_committee'] %}
+        {% for entry in page.external['service']['department'] %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['name'] }}.</td>
+        </tr>
+        {% end %}
+    </table>
+
+    #### College
+
+    <table style="width: 100%;">
+        {% for entry in page.external['service']['college'] %}
+        <tr>
+            <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
+            <td class="cv-cell">{{ entry['name'] }}.</td>
+        </tr>
+        {% end %}
+    </table>
+
+    #### University
+
+    <table style="width: 100%;">
+        {% for entry in page.external['service']['university'] %}
         <tr>
             <td class="cv-cell cv-front"><h5>{{ entry['year'] }}</h5></td>
             <td class="cv-cell">{{ entry['name'] }}.</td>
