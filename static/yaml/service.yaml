@@ -1,4 +1,7 @@
 undergraduates:
+    - name:         Paul Gierl
+      year:         2022
+
     - name:         Michael Eisemann
       year:         2018
 
@@ -125,15 +128,26 @@ organizations:
       role:         President
       year:         2005 - 2006
 
-department_committee:
+department:
     - name:         Undergraduate Computing Resources Committee
       year:         2018 - Present
     - name:         Undergraduate Curriculum Committee
       year:         2017 - Present
     - name:         Faculty Search Committee
-      year:         2021 - Present
+      year:         2021 - 2022
     - name:         Faculty Search Committee
       year:         2016 - 2020
+
+college:
+    - name:         College of Engineering Outstanding Teaching Award Committee
+      year:         2018 - 2020
+
+university:
+    - name:         University Faculty Fellow
+      year:         2022 - 2023
+    - name:         Building Bridges
+      role:         Mentor
+      year:         2018, 2021
 
 program_committee:
     - name:         CIGPU
