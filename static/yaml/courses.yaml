@@ -1,8 +1,20 @@
+- title:    CSE 20312 Data Structures
+  semester: Fall 2023
+  link:     https://www3.nd.edu/~pbui/teaching/cse.20312.fa23
+  school:   University of Notre Dame
+  role:     Substitute
+  active:   true
+
+- title:    CSE 30341 Operating System Principles
+  semester: Fall 2023
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa23
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 30872 Programming Challenges
   semester: Summer 2023
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.su23
   school:   University of Notre Dame
-  active:   true
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2023
