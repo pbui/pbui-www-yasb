@@ -30,15 +30,15 @@ body:       |
     <img src="{{ page.prefix }}static/img/pbui_and_mbui.jpg" class="img-rounded pull-left" style="margin-right: 10px;" />
     </span>
 
-    Hello, my name is **Peter Bui** and I am an **associate teaching
-    professor** in the [Computer Science and Engineering] department at the
-    [University of Notre Dame].  Although I have [taught] a number of different
-    Computer Science courses over the years, I regularly teach Systems
-    Programming, Programming Challenges, Operating System Principles, Open
-    Source Software Development, and Hackers in the Bazaar each school year.
-    Outside the classroom, I am the faculty advisor for the [Linux Users
-    Group], where I get to share my passion and interest in Linux, open source,
-    and technology with students, colleagues, and alumni.
+    Hello, my name is **Peter Bui** and I am a **teaching professor** in the
+    [Computer Science and Engineering] department at the [University of Notre
+    Dame].  Although I have [taught] a number of different Computer Science
+    courses over the years, I regularly teach Systems Programming, Programming
+    Challenges, Operating System Principles, Open Source Software Development,
+    and Hackers in the Bazaar each school year.  Outside the classroom, I am
+    the faculty advisor for the [Linux Users Group], where I get to share my
+    passion and interest in Linux, open source, and technology with students,
+    colleagues, and alumni.
 
     [Computer Science and Engineering]:         http://cse.nd.edu
     [University of Notre Dame]:                 http://www.nd.edu
