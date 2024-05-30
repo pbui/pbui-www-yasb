@@ -1,14 +1,20 @@
+- title:    CSE 30872 Programming Challenges
+  semester: Summer 2024
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30872.su24
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 20289 Systems Programming
   semester: Spring 2024
   link:     https://www3.nd.edu/~pbui/teaching/cse.20289.sp24
   school:   University of Notre Dame
-  active:   true
+  cifs:     5.0
 
 - title:    CSE 40677 Open Source Software Development
   semester: Spring 2024
   link:     https://www3.nd.edu/~pbui/teaching/cse.40677.sp24
   school:   University of Notre Dame
-  active:   true
+  cifs:     5.0
 
 - title:    CSE 20312 Data Structures
   semester: Fall 2023
@@ -26,6 +32,7 @@
   semester: Summer 2023
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.su23
   school:   University of Notre Dame
+  cifs:     5.0
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2023
