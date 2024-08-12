@@ -1,8 +1,20 @@
+- title:    CSE 30341 Operating System Principles
+  semester: Fall 2024
+  link:     https://www3.nd.edu/~pbui/teaching/cse.30341.fa24
+  school:   University of Notre Dame
+  active:   true
+
+- title:    CSE 40842 Hackers in the Bazaar
+  semester: Fall 2024
+  link:     https://www3.nd.edu/~pbui/teaching/cse.40842.fa24
+  school:   University of Notre Dame
+  active:   true
+
 - title:    CSE 30872 Programming Challenges
   semester: Summer 2024
   link:     https://www3.nd.edu/~pbui/teaching/cse.30872.su24
   school:   University of Notre Dame
-  active:   true
+  cifs:     5.0
 
 - title:    CSE 20289 Systems Programming
   semester: Spring 2024
